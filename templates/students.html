@@ -126,7 +126,7 @@
                 </div>
             </div>
             <div class="card" id="courseinfo">
-                <h1>Majors Count</h1>
+                <h4>Students Major's Count</h4>
                 <div id="piechartdiv"></div>
             </div>
             <div class="card" id="clusturedchartdivparent">
@@ -134,7 +134,79 @@
                 <div id="chartdiv"></div>
             </div>
             <div class="card" id="linedivparent">
-                <h3>Average of Grades Per Major</h3>
+                <h3 class="align-text-top text-center m-3">Top 20 Students</h3>
+                 <div id="carouselInterval" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="10000">
+                                            <ol class="list-group" id="list-group">
+                                                {% for student in students[1:6] %}
+                                                    <li class="list-group-item d-flex justify-content-between align-items-start py-1"
+                                                        id="list">
+                                                        <div class="ms-2 me-auto">
+                                                            <div class="fw-bold">{{ loop.index }}. {{ student["student_name"] }}</div>
+                                                            <div>{{ student["student_major"] }}</div>
+                                                        </div>
+                                                        <span class="badge bg-primary rounded-pill">{{ student["student_gpa"] }}</span>
+                                                    </li>
+                                                {% endfor %}
+                                            </ol>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="10000">
+                                            <ol class="list-group" id="list-group">
+                                                {% for student in students[6:11] %}
+                                                    <li class="list-group-item d-flex justify-content-between align-items-start py-1"
+                                                        id="list">
+                                                        <div class="ms-2 me-auto">
+                                                            <div class="fw-bold">{{ loop.index + 5 }}. {{ student["student_name"] }}</div>
+                                                            <div>{{ student["student_major"] }}</div>
+                                                        </div>
+                                                        <span class="badge bg-primary rounded-pill">{{ student["student_gpa"] }}</span>
+                                                    </li>
+                                                {% endfor %}
+                                            </ol>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <ol class="list-group " id="list-group">
+                                                {% for student in students[11:16] %}
+                                                    <li class="list-group-item d-flex justify-content-between align-items-start py-1"
+                                                        id="list">
+                                                        <div class="ms-2 me-auto">
+                                                            <div class="fw-bold">{{ loop.index + 10 }}. {{ student["student_name"] }}</div>
+                                                            <div>{{ student["student_major"] }}</div>
+                                                        </div>
+                                                        <span class="badge bg-primary rounded-pill">{{ student["student_gpa"] }}</span>
+                                                    </li>
+                                                {% endfor %}
+                                            </ol>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <ol class="list-group" id="list-group">
+                                                {% for student in students[16:22] %}
+                                                    <li class="list-group-item d-flex justify-content-between align-items-start py-1"
+                                                        id="list">
+                                                        <div class="ms-2 me-auto">
+                                                            <div class="fw-bold">{{ loop.index + 15 }}. {{ student["student_name"] }}</div>
+                                                            <div>{{ student["student_major"] }}</div>
+                                                        </div>
+                                                        <span class="badge bg-primary rounded-pill">{{ student["student_gpa"] }}</span>
+                                                    </li>
+                                                {% endfor %}
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselInterval"
+                                            data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button id="Button" class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselInterval"
+                                            data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
             </div>
             <div class="card" id="linechartdivparent">
                 <h3>Enrollments of Majors Per year</h3>

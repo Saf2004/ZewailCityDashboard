@@ -12,7 +12,30 @@ global selected_course
 
 @app.route('/')
 def index():
-    return render_template('students.html')
+    conn = sqlite3.connect('university.db')
+
+    query = 'SELECT student_id, student_major,student_gpa,number_of_replaces FROM students'
+    df = pd.read_sql_query(query, conn)
+
+    total_students = df.count()[0]
+
+
+    query = """
+    SELECT student_name,student_major,student_gpa FROM students
+    ORDER BY student_gpa DESC,student_batch ASC 
+    LIMIT 21
+    """
+
+    df_s = pd.read_sql_query(query, conn)
+    conn.close()
+
+    student_dict = df_s.to_dict(orient='records')
+
+    on_propation = df[df["student_gpa"] < 2.2].count()["student_id"]
+    repeating = df[df["number_of_replaces"] > 0].count()["student_id"]
+
+    return render_template('students.html', on_propation=on_propation, total_students=total_students,
+                           repeating=repeating, students=student_dict)
 
 
 @app.route('/financials')
@@ -142,13 +165,23 @@ def students():
 
     total_students = df.count()[0]
 
+
+    query = """
+    SELECT student_name,student_major,student_gpa FROM students
+    ORDER BY student_gpa DESC,student_batch ASC 
+    LIMIT 21
+    """
+
+    df_s = pd.read_sql_query(query, conn)
     conn.close()
+
+    student_dict = df_s.to_dict(orient='records')
 
     on_propation = df[df["student_gpa"] < 2.2].count()["student_id"]
     repeating = df[df["number_of_replaces"] > 0].count()["student_id"]
 
     return render_template('students.html', on_propation=on_propation, total_students=total_students,
-                           repeating=repeating)
+                           repeating=repeating, students=student_dict)
 
 
 @app.route('/get-eng-gpa')
@@ -167,7 +200,7 @@ def getGPAEng():
     gpa_counts = df.groupby(pd.cut(df["student_gpa"], [x / 10.0 for x in range(0, 42, 2)])).count()[
         "student_gpa"].tolist()
 
-    distrib_intervals = [x / 10.0 for x in range(2, 44, 2)]
+    distrib_intervals = [x / 10.0 for x in range(0, 42, 2)]
 
     # Create JSON data for the distribution
     data = [{"GPA": distribution, "value": gpa} for gpa, distribution in zip(gpa_counts, distrib_intervals)]
@@ -191,7 +224,7 @@ def getGPASC():
     gpa_counts = df.groupby(pd.cut(df["student_gpa"], [x / 10.0 for x in range(0, 42, 2)])).count()[
         "student_gpa"].tolist()
 
-    distrib_intervals = [x / 10.0 for x in range(2, 44, 2)]
+    distrib_intervals = [x / 10.0 for x in range(0, 42, 2)]
 
     # Create JSON data for the distribution
     data = [{"GPA": distribution, "value": gpa} for gpa, distribution in zip(gpa_counts, distrib_intervals)]
@@ -216,7 +249,7 @@ def getGPACS():
     gpa_counts = df.groupby(pd.cut(df["student_gpa"], [x / 10.0 for x in range(0, 42, 2)])).count()[
         "student_gpa"].tolist()
 
-    distrib_intervals = [x / 10.0 for x in range(2, 44, 2)]
+    distrib_intervals = [x / 10.0 for x in range(0, 42, 2)]
 
     # Create JSON data for the distribution
     data = [{"GPA": distribution, "value": gpa} for gpa, distribution in zip(gpa_counts, distrib_intervals)]
@@ -241,7 +274,7 @@ def getGPAMath():
     gpa_counts = df.groupby(pd.cut(df["student_gpa"], [x / 10.0 for x in range(0, 42, 2)])).count()[
         "student_gpa"].tolist()
 
-    distrib_intervals = [x / 10.0 for x in range(2, 44, 2)]
+    distrib_intervals = [x / 10.0 for x in range(0, 42, 2)]
 
     # Create JSON data for the distribution
     data = [{"GPA": distribution, "value": gpa} for gpa, distribution in zip(gpa_counts, distrib_intervals)]
@@ -399,9 +432,6 @@ def getStudentsCount():
     return jsonify(data)
 
 
-@app.route('/courses')
-def courses():
-    return render_template('courses.html')
 
 
 if __name__ == '__main__':
