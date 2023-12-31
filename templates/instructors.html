@@ -99,7 +99,6 @@
                                     <option value="{{ major }}">{{ major }}</option>
                                 {% endfor %}
                             </select>
-
                             <label for="courses" class="mt-4">Select Course:</label>
                             <select class="form-select" id="courses" name="courses">
                                 {% for course in courses %}
@@ -157,7 +156,7 @@
                                                 {% endfor %}
                                             </ol>
                                         </div>
-                                        <div class="carousel-item active" data-bs-interval="10000">
+                                        <div class="carousel-item" data-bs-interval="10000">
                                             <ol class="list-group" id="list-group">
                                                 {% for instructor in instructors[10:20] %}
                                                     <li class="list-group-item d-flex justify-content-between align-items-start py-1"
