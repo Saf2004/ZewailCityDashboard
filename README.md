@@ -53,6 +53,11 @@ python -m flask run
 ```
 The application will be available at http://127.0.0.1:5000 by default.
 
+The database will be stored in the file data.db in the project root directory.
+
+The data.py can be run to provide random data to the database.
+
+
 ```bash
 Project Structure
 /project
@@ -71,7 +76,9 @@ Project Structure
 │    │ student.js
 │    └ ...
 │
-└── requirements.txt     # List of dependencies to be installed
+├── requirements.txt # List of dependencies to be installed
+└── university.db  # SQLite database file
+  
 ```
 ## Dependencies
 **JavaScript Dependencies**
