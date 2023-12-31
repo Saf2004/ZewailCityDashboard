@@ -12,7 +12,7 @@ global selected_course
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('students.html')
 
 
 @app.route('/financials')
