@@ -1,0 +1,101 @@
+instructor_id,instructor_name,instructor_rating,number_of_researches,years_experience,department
+I1,Doha Youssef,4.42,16,16,Engineering
+I2,Moustafa Khalid,4.94,11,17,Science
+I3,Khalid Khalid,2.84,8,3,Computer Science
+I4,Yehia Abdelrahman,4.07,12,16,Mathematics
+I5,Abdelrahman Ahmed,2.62,12,7,Engineering
+I6,Doha Youssef,2.62,20,12,Engineering
+I7,Khalid Mahmoud,2.09,17,10,Computer Science
+I8,Tamer Mahmoud,2.85,4,1,Engineering
+I9,Moustafa Mahmoud,3.52,20,17,Computer Science
+I10,Mahmoud Mahmoud,2.72,3,8,Science
+I11,Yousra Youssef,1.99,20,6,Computer Science
+I12,Youssef Ahmed,4.58,9,17,Engineering
+I13,Tamer Yehia,4.47,1,19,Science
+I14,Mohamed Ahmed,2.31,12,2,Engineering
+I15,Naser Yehia,4.75,14,11,Science
+I16,Mayar Mohamed,4.98,8,4,Science
+I17,Youssef Khalid,4.16,20,9,Engineering
+I18,Mohamed Naser,4.64,3,1,Engineering
+I19,Mahmoud Khalid,4.68,15,13,Mathematics
+I20,Youssef Mohamed,2.6,2,5,Computer Science
+I21,Doaa Tamer,2.79,3,9,Science
+I22,Mohamed Youssef,1.91,1,18,Engineering
+I23,Mohamed Abdelrahman,4.79,14,3,Mathematics
+I24,Moustafa Moustafa,3.32,19,7,Engineering
+I25,Khalid Mohamed,1.85,14,13,Mathematics
+I26,Esraa Tamer,2.69,14,17,Computer Science
+I27,Yehia Abdelrahman,1.41,3,18,Engineering
+I28,Mohamed Yehia,2.8,16,16,Computer Science
+I29,Yehia Abdelrahman,3.81,6,4,Science
+I30,Yehia Khalid,4.03,17,5,Mathematics
+I31,Esraa Mohamed,1.88,16,14,Engineering
+I32,Naser Khalid,3.23,9,14,Science
+I33,Naser Ahmed,2.03,1,8,Science
+I34,Abdelrahman Ahmed,1.51,16,4,Mathematics
+I35,Mohamed Tamer,1.23,10,2,Science
+I36,Doaa Yehia,1.74,6,17,Engineering
+I37,Youssef Mahmoud,3.79,20,7,Engineering
+I38,Abdelrahman Yehia,4.63,20,20,Computer Science
+I39,Naser Abdelrahman,4.38,7,17,Computer Science
+I40,Abdelrahman Naser,4.89,3,12,Mathematics
+I41,Yousra Abdelrahman,2.53,7,8,Engineering
+I42,Ahmed Yehia,2.74,8,1,Science
+I43,Khalid Khalid,3.6,9,16,Engineering
+I44,Abdelrahman Naser,2.15,13,10,Computer Science
+I45,Ahmed Ahmed,3.49,5,13,Engineering
+I46,Esraa Tamer,4.04,18,8,Computer Science
+I47,Moustafa Youssef,1.15,2,8,Engineering
+I48,Naser Abdelrahman,4.1,7,3,Science
+I49,Ahmed Khalid,1.81,7,6,Science
+I50,Mahmoud Youssef,3.44,11,6,Science
+I51,Doaa Mohamed,1.77,11,10,Computer Science
+I52,Mahmoud Youssef,4.92,9,11,Mathematics
+I53,Youssef Moustafa,2.71,9,4,Science
+I54,Yehia Youssef,3.59,3,13,Engineering
+I55,Mahmoud Khalid,2.84,0,10,Engineering
+I56,Doaa Naser,1.9,14,8,Science
+I57,Ahmed Ahmed,1.88,16,6,Engineering
+I58,Mohamed Yehia,3.62,20,1,Science
+I59,Yehia Naser,4.75,15,14,Mathematics
+I60,Yehia Abdelrahman,4.52,10,5,Science
+I61,Esraa Abdelrahman,4.71,3,4,Computer Science
+I62,Naser Youssef,3.35,4,19,Science
+I63,Yehia Moustafa,2.61,5,9,Computer Science
+I64,Mahmoud Youssef,4.5,16,15,Science
+I65,Yehia Mahmoud,4.76,15,10,Engineering
+I66,Marwa Ahmed,4.54,10,18,Mathematics
+I67,Ahmed Khalid,1.73,1,19,Science
+I68,Youssef Mohamed,3.67,4,4,Mathematics
+I69,Mohamed Mahmoud,3.09,0,1,Science
+I70,Mohamed Yehia,1.51,18,15,Engineering
+I71,Mariam Tamer,3.39,18,4,Science
+I72,Yehia Youssef,1.8,7,6,Computer Science
+I73,Ahmed Yehia,3.63,19,5,Mathematics
+I74,Yehia Mohamed,2.36,16,14,Science
+I75,Moustafa Mohamed,3.32,19,13,Science
+I76,Mariam Khalid,2.76,8,8,Science
+I77,Youssef Ahmed,3.02,12,12,Computer Science
+I78,Yehia Mahmoud,1.43,13,13,Computer Science
+I79,Ahmed Mahmoud,1.09,6,16,Science
+I80,Naser Ahmed,1.31,8,2,Engineering
+I81,Marwa Ahmed,2.8,2,12,Engineering
+I82,Naser Ahmed,4.33,13,16,Science
+I83,Tamer Ahmed,2.05,20,9,Science
+I84,Yehia Abdelrahman,4.78,2,15,Mathematics
+I85,Tamer Abdelrahman,3.84,6,14,Computer Science
+I86,Toaa Khalid,3.94,13,10,Engineering
+I87,Mahmoud Tamer,2.14,0,12,Computer Science
+I88,Moustafa Mohamed,1.38,10,10,Mathematics
+I89,Ahmed Mohamed,4.0,12,3,Science
+I90,Yehia Youssef,3.71,3,10,Mathematics
+I91,Yousra Naser,1.36,15,11,Mathematics
+I92,Naser Abdelrahman,3.99,6,5,Science
+I93,Yehia Moustafa,2.62,5,1,Engineering
+I94,Abdelrahman Moustafa,1.91,13,20,Science
+I95,Ahmed Moustafa,3.65,8,16,Science
+I96,Sabah Khalid,3.82,7,15,Computer Science
+I97,Tamer Tamer,2.17,9,20,Computer Science
+I98,Mahmoud Naser,1.98,18,8,Mathematics
+I99,Mahmoud Mohamed,1.57,13,15,Science
+I100,Abdelrahman Naser,3.92,20,5,Science

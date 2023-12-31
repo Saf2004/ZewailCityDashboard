@@ -1,0 +1,1387 @@
+,course_code,course_title,course_credits,course_semester,course_year,course_instructor
+0,CSAI 101,Data Science,3,Fall,2019,I38
+1,CSAI 102,Data Science,3,Spring,2019,I51
+2,CSAI 151,Data Science,3,Spring,2019,I78
+3,CSAI 201,Data Science,3,Summer,2019,I7
+4,CSAI 202,Data Science,3,Fall,2019,I28
+5,CSAI 203,Data Science,3,Fall,2019,I44
+6,CSAI 204,Data Science,3,Spring,2019,I46
+7,CSAI 205,Data Science,3,Spring,2019,I97
+8,CSAI 251,Data Science,3,Summer,2019,I77
+9,CSAI 252,Data Science,3,Fall,2019,I20
+10,CSAI 201,Data Science,3,Summer,2019,I72
+11,CSAI 253,Data Science,3,Fall,2019,I96
+12,CSAI 301,Data Science,3,Summer,2019,I20
+13,CSAI 399,Data Science,3,Summer,2019,I3
+14,CSAI 498,Data Science,3,Fall,2019,I20
+15,CSAI 499,Data Science,3,Spring,2019,I38
+16,DSAI 103,Data Science,3,Summer,2019,I11
+17,DSAI 104,Data Science,3,Summer,2019,I20
+18,DSAI 201,Data Science,3,Summer,2019,I39
+19,DSAI 202,Data Science,3,Spring,2019,I3
+20,DSAI 203,Data Science,3,Summer,2019,I3
+21,DSAI 305,Data Science,3,Spring,2019,I97
+22,DSAI 307,Data Science,3,Spring,2019,I78
+23,DSAI 308,Data Science,3,Summer,2019,I28
+24,DSAI 325,Data Science,3,Summer,2019,I26
+25,DSAI 352,Data Science,3,Fall,2019,I46
+26,DSAI 353,Data Science,3,Summer,2019,I20
+27,DSAI 402,Data Science,3,Spring,2019,I78
+28,DSAI 403,Data Science,3,Summer,2019,I46
+29,DSAI 406,Data Science,3,Fall,2019,I28
+30,DSAI 413,Data Science,3,Fall,2019,I7
+31,DSAI 414,Data Science,3,Summer,2019,I11
+32,DSAI 415,Data Science,3,Fall,2019,I96
+33,DSAI 416,Data Science,3,Fall,2019,I7
+34,DSAI 417,Data Science,3,Fall,2019,I85
+35,DSAI 418,Data Science,3,Summer,2019,I11
+36,DSAI 427,Data Science,3,Summer,2019,I51
+37,DSAI 431,Data Science,3,Spring,2019,I11
+38,DSAI 433,Data Science,3,Spring,2019,I87
+39,DSAI 456,Data Science,3,Summer,2019,I44
+40,DSAI 473,Data Science,3,Summer,2019,I38
+41,DSAI 490,Data Science,3,Spring,2019,I77
+42,CSAI 101,Data Science,3,Fall,2019,I26
+43,CSAI 102,Data Science,3,Spring,2019,I20
+44,CSAI 151,Data Science,3,Fall,2019,I78
+45,CSAI 201,Data Science,3,Fall,2019,I77
+46,CSAI 202,Data Science,3,Spring,2019,I20
+47,CSAI 203,Data Science,3,Spring,2019,I85
+48,CSAI 204,Data Science,3,Spring,2019,I85
+49,CSAI 205,Data Science,3,Summer,2019,I28
+50,CSAI 251,Data Science,3,Summer,2019,I3
+51,CSAI 252,Data Science,3,Fall,2019,I72
+52,CSAI 201,Data Science,3,Fall,2019,I51
+53,CSAI 253,Data Science,3,Summer,2019,I97
+54,CSAI 301,Data Science,3,Fall,2019,I26
+55,CSAI 399,Data Science,3,Summer,2019,I96
+56,CSAI 498,Data Science,3,Summer,2019,I3
+57,CSAI 499,Data Science,3,Summer,2019,I7
+58,IT 101,Information Technology,3,Spring,2019,I78
+59,IT 102,Information Technology,3,Spring,2019,I28
+60,IT 103,Information Technology,3,Fall,2019,I97
+61,IT 205,Information Technology,3,Spring,2019,I44
+62,IT 206,Information Technology,3,Fall,2019,I20
+63,IT 220,Information Technology,3,Spring,2019,I63
+64,IT 222,Information Technology,3,Fall,2019,I72
+65,IT 308,Information Technology,3,Fall,2019,I63
+66,IT 309,Information Technology,3,Summer,2019,I97
+67,IT 310,Information Technology,3,Summer,2019,I39
+68,IT 401,Information Technology,3,Summer,2019,I39
+69,IT 402,Information Technology,3,Fall,2019,I39
+70,IT 411,Information Technology,3,Summer,2019,I51
+71,ITCC 301,Information Technology,3,Fall,2019,I77
+72,ITCC 403,Information Technology,3,Summer,2019,I26
+73,ITCC 404,Information Technology,3,Spring,2019,I46
+74,ITCC 405,Information Technology,3,Summer,2019,I63
+75,ITCC 406,Information Technology,3,Spring,2019,I51
+76,ITCC 407,Information Technology,3,Fall,2019,I38
+77,ITCC 408,Information Technology,3,Fall,2019,I46
+78,ITCC 410,Information Technology,3,Summer,2019,I51
+79,ITCC 411,Information Technology,3,Fall,2019,I39
+80,ITCC 412,Information Technology,3,Fall,2019,I85
+81,ITCC 413,Information Technology,3,Fall,2019,I20
+82,ITCC 414,Information Technology,3,Spring,2019,I63
+83,ITCC 415,Information Technology,3,Summer,2019,I77
+84,ITNS 301,Information Technology,3,Spring,2019,I78
+85,ITNS 302,Information Technology,3,Fall,2019,I28
+86,ITNS 403,Information Technology,3,Fall,2019,I87
+87,ITNS 404,Information Technology,3,Summer,2019,I26
+88,ITNS 406,Information Technology,3,Spring,2019,I87
+89,ITNS 407,Information Technology,3,Summer,2019,I51
+90,ITNS 408,Information Technology,3,Summer,2019,I39
+91,ITNS 410,Information Technology,3,Summer,2019,I44
+92,ITNS 411,Information Technology,3,Spring,2019,I39
+93,ITNS 412,Information Technology,3,Fall,2019,I7
+94,ITNS 413,Information Technology,3,Summer,2019,I3
+95,ITNS 414,Information Technology,3,Spring,2019,I78
+96,ITNS 415,Information Technology,3,Fall,2019,I46
+97,CSAI 101,Data Science,3,Spring,2019,I26
+98,CSAI 102,Data Science,3,Summer,2019,I26
+99,CSAI 151,Data Science,3,Summer,2019,I85
+100,CSAI 201,Data Science,3,Spring,2019,I28
+101,CSAI 202,Data Science,3,Summer,2019,I78
+102,CSAI 203,Data Science,3,Fall,2019,I51
+103,CSAI 204,Data Science,3,Fall,2019,I96
+104,CSAI 205,Data Science,3,Summer,2019,I44
+105,CSAI 251,Data Science,3,Spring,2019,I46
+106,CSAI 252,Data Science,3,Fall,2019,I7
+107,CSAI 201,Data Science,3,Summer,2019,I77
+108,CSAI 253,Data Science,3,Summer,2019,I72
+109,CSAI 301,Data Science,3,Fall,2019,I7
+110,CSAI 399,Data Science,3,Fall,2019,I38
+111,CSAI 498,Data Science,3,Fall,2019,I87
+112,CSAI 499,Data Science,3,Fall,2019,I61
+113,SW 151,Software Engineering,3,Spring,2019,I28
+114,SW 251,Software Engineering,3,Fall,2019,I11
+115,SW 252,Software Engineering,3,Spring,2019,I39
+116,SW 301,Software Engineering,3,Spring,2019,I11
+117,SW 302,Software Engineering,3,Summer,2019,I20
+118,SW 401,Software Engineering,3,Spring,2019,I28
+119,SW 402,Software Engineering,3,Spring,2019,I87
+120,SWAPD 301,Software Engineering,3,Spring,2019,I9
+121,SWAPD 351,Software Engineering,3,Spring,2019,I7
+122,SWAPD 352,Software Engineering,3,Spring,2019,I61
+123,SWAPD 401,Software Engineering,3,Summer,2019,I44
+124,SWAPD 402,Software Engineering,3,Fall,2019,I96
+125,SWAPD 451,Software Engineering,3,Spring,2019,I63
+126,SWAPD 452,Software Engineering,3,Summer,2019,I38
+127,SWAPD 453,Software Engineering,3,Spring,2019,I96
+128,SWGCG 301,Software Engineering,3,Fall,2019,I28
+129,SWGCG 351,Software Engineering,3,Spring,2019,I9
+130,SWGCG 352,Software Engineering,3,Spring,2019,I9
+131,SWGCG 401,Software Engineering,3,Spring,2019,I3
+132,SWGCG 402,Software Engineering,3,Spring,2019,I78
+133,SWGCG 451,Software Engineering,3,Summer,2019,I72
+134,SWGCG 452,Software Engineering,3,Summer,2019,I7
+135,SWGCG 453,Software Engineering,3,Summer,2019,I20
+136,SWHCI 301,Software Engineering,3,Summer,2019,I85
+137,SWHCI 351,Software Engineering,3,Summer,2019,I28
+138,SWHCI 352,Software Engineering,3,Summer,2019,I46
+139,SWHCI 401,Software Engineering,3,Summer,2019,I51
+140,SWHCI 402,Software Engineering,3,Summer,2019,I96
+141,SWHCI 451,Software Engineering,3,Summer,2019,I72
+142,SWHCI 452,Software Engineering,3,Summer,2019,I26
+143,SWHCI 453,Software Engineering,3,Fall,2019,I26
+144,MATH 101,Mathematics,3,Spring,2019,I90
+145,MATH 102,Mathematics,3,Fall,2019,I40
+146,MATH 103,Mathematics,3,Summer,2019,I73
+147,MATH 104,Mathematics,3,Fall,2019,I59
+148,MATH 105,Mathematics,3,Summer,2019,I91
+149,MATH 106,Mathematics,3,Spring,2019,I59
+150,MATH 107,Mathematics,3,Fall,2019,I4
+151,MATH 108,Mathematics,3,Fall,2019,I59
+152,MATH 109,Mathematics,3,Fall,2019,I23
+153,MATH 110,Mathematics,3,Fall,2019,I25
+154,MATH 111,Mathematics,3,Summer,2019,I40
+155,MATH 112,Mathematics,3,Fall,2019,I52
+156,MATH 113,Mathematics,3,Summer,2019,I59
+157,MATH 114,Mathematics,3,Fall,2019,I73
+158,MATH 115,Mathematics,3,Spring,2019,I59
+159,MATH 116,Mathematics,3,Summer,2019,I88
+160,MATH 117,Mathematics,3,Fall,2019,I40
+161,MATH 118,Mathematics,3,Fall,2019,I66
+162,MATH 119,Mathematics,3,Summer,2019,I34
+163,MATH 120,Mathematics,3,Spring,2019,I19
+164,MATH 121,Mathematics,3,Summer,2019,I59
+165,MATH 122,Mathematics,3,Fall,2019,I25
+166,MATH 123,Mathematics,3,Fall,2019,I34
+167,MATH 124,Mathematics,3,Spring,2019,I66
+168,MATH 125,Mathematics,3,Fall,2019,I84
+169,MATH 126,Mathematics,3,Spring,2019,I30
+170,MATH 127,Mathematics,3,Spring,2019,I19
+171,MATH 128,Mathematics,3,Spring,2019,I84
+172,MATH 129,Mathematics,3,Summer,2019,I40
+173,ENGR 101,Engineering,3,Spring,2019,I45
+174,ENGR 102,Engineering,3,Summer,2019,I41
+175,ENGR 103,Engineering,3,Spring,2019,I27
+176,ENGR 104,Engineering,3,Fall,2019,I65
+177,ENGR 105,Engineering,3,Spring,2019,I36
+178,ENGR 106,Engineering,3,Spring,2019,I37
+179,ENGR 107,Engineering,3,Spring,2019,I37
+180,ENGR 108,Engineering,3,Fall,2019,I55
+181,ENGR 109,Engineering,3,Summer,2019,I41
+182,ENGR 110,Engineering,3,Summer,2019,I54
+183,ENGR 111,Engineering,3,Summer,2019,I1
+184,ENGR 112,Engineering,3,Spring,2019,I14
+185,ENGR 113,Engineering,3,Spring,2019,I93
+186,ENGR 114,Engineering,3,Fall,2019,I37
+187,ENGR 115,Engineering,3,Fall,2019,I86
+188,ENGR 116,Engineering,3,Summer,2019,I41
+189,ENGR 117,Engineering,3,Summer,2019,I80
+190,ENGR 118,Engineering,3,Summer,2019,I81
+191,ENGR 119,Engineering,3,Summer,2019,I41
+192,ENGR 120,Engineering,3,Summer,2019,I80
+193,ENGR 121,Engineering,3,Spring,2019,I86
+194,ENGR 122,Engineering,3,Fall,2019,I81
+195,ENGR 123,Engineering,3,Spring,2019,I54
+196,ENGR 124,Engineering,3,Summer,2019,I6
+197,ENGR 125,Engineering,3,Fall,2019,I55
+198,ENGR 126,Engineering,3,Spring,2019,I70
+199,ENGR 127,Engineering,3,Spring,2019,I86
+200,ENGR 128,Engineering,3,Spring,2019,I1
+201,ENGR 129,Engineering,3,Summer,2019,I80
+202,SCIE 101,Science,3,Spring,2019,I67
+203,SCIE 102,Science,3,Summer,2019,I99
+204,SCIE 103,Science,3,Spring,2019,I76
+205,SCIE 104,Science,3,Summer,2019,I10
+206,SCIE 105,Science,3,Spring,2019,I76
+207,SCIE 106,Science,3,Spring,2019,I13
+208,SCIE 107,Science,3,Spring,2019,I53
+209,SCIE 108,Science,3,Fall,2019,I50
+210,SCIE 109,Science,3,Spring,2019,I50
+211,SCIE 110,Science,3,Fall,2019,I58
+212,SCIE 111,Science,3,Summer,2019,I60
+213,SCIE 112,Science,3,Spring,2019,I15
+214,SCIE 113,Science,3,Summer,2019,I58
+215,SCIE 114,Science,3,Fall,2019,I42
+216,SCIE 115,Science,3,Spring,2019,I99
+217,SCIE 116,Science,3,Spring,2019,I42
+218,SCIE 117,Science,3,Fall,2019,I83
+219,SCIE 118,Science,3,Summer,2019,I76
+220,SCIE 119,Science,3,Summer,2019,I92
+221,SCIE 120,Science,3,Spring,2019,I60
+222,SCIE 121,Science,3,Spring,2019,I95
+223,SCIE 122,Science,3,Spring,2019,I76
+224,SCIE 123,Science,3,Summer,2019,I100
+225,SCIE 124,Science,3,Summer,2019,I16
+226,SCIE 125,Science,3,Spring,2019,I49
+227,SCIE 126,Science,3,Fall,2019,I67
+228,SCIE 127,Science,3,Spring,2019,I74
+229,SCIE 128,Science,3,Summer,2019,I92
+230,SCIE 129,Science,3,Summer,2019,I64
+231,CSAI 101,Data Science,3,Spring,2020,I96
+232,CSAI 102,Data Science,3,Fall,2020,I97
+233,CSAI 151,Data Science,3,Spring,2020,I28
+234,CSAI 201,Data Science,3,Fall,2020,I97
+235,CSAI 202,Data Science,3,Spring,2020,I38
+236,CSAI 203,Data Science,3,Spring,2020,I28
+237,CSAI 204,Data Science,3,Spring,2020,I63
+238,CSAI 205,Data Science,3,Summer,2020,I46
+239,CSAI 251,Data Science,3,Summer,2020,I44
+240,CSAI 252,Data Science,3,Fall,2020,I46
+241,CSAI 201,Data Science,3,Summer,2020,I44
+242,CSAI 253,Data Science,3,Spring,2020,I44
+243,CSAI 301,Data Science,3,Summer,2020,I44
+244,CSAI 399,Data Science,3,Summer,2020,I97
+245,CSAI 498,Data Science,3,Summer,2020,I63
+246,CSAI 499,Data Science,3,Fall,2020,I11
+247,DSAI 103,Data Science,3,Summer,2020,I9
+248,DSAI 104,Data Science,3,Summer,2020,I26
+249,DSAI 201,Data Science,3,Summer,2020,I77
+250,DSAI 202,Data Science,3,Fall,2020,I72
+251,DSAI 203,Data Science,3,Spring,2020,I39
+252,DSAI 305,Data Science,3,Summer,2020,I72
+253,DSAI 307,Data Science,3,Summer,2020,I38
+254,DSAI 308,Data Science,3,Fall,2020,I3
+255,DSAI 325,Data Science,3,Summer,2020,I61
+256,DSAI 352,Data Science,3,Spring,2020,I61
+257,DSAI 353,Data Science,3,Summer,2020,I72
+258,DSAI 402,Data Science,3,Fall,2020,I51
+259,DSAI 403,Data Science,3,Spring,2020,I46
+260,DSAI 406,Data Science,3,Summer,2020,I63
+261,DSAI 413,Data Science,3,Summer,2020,I38
+262,DSAI 414,Data Science,3,Fall,2020,I85
+263,DSAI 415,Data Science,3,Spring,2020,I85
+264,DSAI 416,Data Science,3,Summer,2020,I39
+265,DSAI 417,Data Science,3,Summer,2020,I51
+266,DSAI 418,Data Science,3,Spring,2020,I26
+267,DSAI 427,Data Science,3,Summer,2020,I87
+268,DSAI 431,Data Science,3,Spring,2020,I46
+269,DSAI 433,Data Science,3,Spring,2020,I26
+270,DSAI 456,Data Science,3,Spring,2020,I51
+271,DSAI 473,Data Science,3,Fall,2020,I11
+272,DSAI 490,Data Science,3,Summer,2020,I9
+273,CSAI 101,Data Science,3,Summer,2020,I11
+274,CSAI 102,Data Science,3,Spring,2020,I97
+275,CSAI 151,Data Science,3,Spring,2020,I9
+276,CSAI 201,Data Science,3,Summer,2020,I20
+277,CSAI 202,Data Science,3,Fall,2020,I51
+278,CSAI 203,Data Science,3,Fall,2020,I20
+279,CSAI 204,Data Science,3,Spring,2020,I7
+280,CSAI 205,Data Science,3,Fall,2020,I28
+281,CSAI 251,Data Science,3,Fall,2020,I11
+282,CSAI 252,Data Science,3,Fall,2020,I78
+283,CSAI 201,Data Science,3,Spring,2020,I72
+284,CSAI 253,Data Science,3,Summer,2020,I26
+285,CSAI 301,Data Science,3,Spring,2020,I63
+286,CSAI 399,Data Science,3,Summer,2020,I97
+287,CSAI 498,Data Science,3,Spring,2020,I78
+288,CSAI 499,Data Science,3,Fall,2020,I61
+289,IT 101,Information Technology,3,Spring,2020,I7
+290,IT 102,Information Technology,3,Summer,2020,I72
+291,IT 103,Information Technology,3,Summer,2020,I38
+292,IT 205,Information Technology,3,Summer,2020,I78
+293,IT 206,Information Technology,3,Spring,2020,I96
+294,IT 220,Information Technology,3,Spring,2020,I78
+295,IT 222,Information Technology,3,Fall,2020,I7
+296,IT 308,Information Technology,3,Fall,2020,I11
+297,IT 309,Information Technology,3,Spring,2020,I28
+298,IT 310,Information Technology,3,Fall,2020,I63
+299,IT 401,Information Technology,3,Fall,2020,I9
+300,IT 402,Information Technology,3,Summer,2020,I61
+301,IT 411,Information Technology,3,Fall,2020,I44
+302,ITCC 301,Information Technology,3,Spring,2020,I11
+303,ITCC 403,Information Technology,3,Summer,2020,I85
+304,ITCC 404,Information Technology,3,Summer,2020,I20
+305,ITCC 405,Information Technology,3,Fall,2020,I38
+306,ITCC 406,Information Technology,3,Summer,2020,I7
+307,ITCC 407,Information Technology,3,Fall,2020,I20
+308,ITCC 408,Information Technology,3,Summer,2020,I97
+309,ITCC 410,Information Technology,3,Summer,2020,I38
+310,ITCC 411,Information Technology,3,Spring,2020,I77
+311,ITCC 412,Information Technology,3,Summer,2020,I96
+312,ITCC 413,Information Technology,3,Summer,2020,I87
+313,ITCC 414,Information Technology,3,Summer,2020,I3
+314,ITCC 415,Information Technology,3,Fall,2020,I85
+315,ITNS 301,Information Technology,3,Summer,2020,I97
+316,ITNS 302,Information Technology,3,Spring,2020,I44
+317,ITNS 403,Information Technology,3,Summer,2020,I61
+318,ITNS 404,Information Technology,3,Spring,2020,I39
+319,ITNS 406,Information Technology,3,Summer,2020,I61
+320,ITNS 407,Information Technology,3,Summer,2020,I44
+321,ITNS 408,Information Technology,3,Spring,2020,I28
+322,ITNS 410,Information Technology,3,Spring,2020,I87
+323,ITNS 411,Information Technology,3,Fall,2020,I11
+324,ITNS 412,Information Technology,3,Spring,2020,I51
+325,ITNS 413,Information Technology,3,Spring,2020,I87
+326,ITNS 414,Information Technology,3,Summer,2020,I46
+327,ITNS 415,Information Technology,3,Summer,2020,I77
+328,CSAI 101,Data Science,3,Spring,2020,I28
+329,CSAI 102,Data Science,3,Spring,2020,I11
+330,CSAI 151,Data Science,3,Summer,2020,I44
+331,CSAI 201,Data Science,3,Spring,2020,I3
+332,CSAI 202,Data Science,3,Fall,2020,I9
+333,CSAI 203,Data Science,3,Spring,2020,I51
+334,CSAI 204,Data Science,3,Fall,2020,I85
+335,CSAI 205,Data Science,3,Fall,2020,I78
+336,CSAI 251,Data Science,3,Fall,2020,I26
+337,CSAI 252,Data Science,3,Spring,2020,I46
+338,CSAI 201,Data Science,3,Summer,2020,I61
+339,CSAI 253,Data Science,3,Spring,2020,I96
+340,CSAI 301,Data Science,3,Spring,2020,I44
+341,CSAI 399,Data Science,3,Spring,2020,I78
+342,CSAI 498,Data Science,3,Summer,2020,I28
+343,CSAI 499,Data Science,3,Spring,2020,I63
+344,SW 151,Software Engineering,3,Summer,2020,I26
+345,SW 251,Software Engineering,3,Summer,2020,I63
+346,SW 252,Software Engineering,3,Fall,2020,I63
+347,SW 301,Software Engineering,3,Fall,2020,I87
+348,SW 302,Software Engineering,3,Spring,2020,I20
+349,SW 401,Software Engineering,3,Summer,2020,I87
+350,SW 402,Software Engineering,3,Spring,2020,I77
+351,SWAPD 301,Software Engineering,3,Fall,2020,I3
+352,SWAPD 351,Software Engineering,3,Fall,2020,I46
+353,SWAPD 352,Software Engineering,3,Fall,2020,I97
+354,SWAPD 401,Software Engineering,3,Fall,2020,I87
+355,SWAPD 402,Software Engineering,3,Fall,2020,I46
+356,SWAPD 451,Software Engineering,3,Summer,2020,I7
+357,SWAPD 452,Software Engineering,3,Fall,2020,I78
+358,SWAPD 453,Software Engineering,3,Fall,2020,I72
+359,SWGCG 301,Software Engineering,3,Spring,2020,I97
+360,SWGCG 351,Software Engineering,3,Fall,2020,I85
+361,SWGCG 352,Software Engineering,3,Spring,2020,I44
+362,SWGCG 401,Software Engineering,3,Summer,2020,I51
+363,SWGCG 402,Software Engineering,3,Spring,2020,I46
+364,SWGCG 451,Software Engineering,3,Spring,2020,I44
+365,SWGCG 452,Software Engineering,3,Summer,2020,I38
+366,SWGCG 453,Software Engineering,3,Fall,2020,I96
+367,SWHCI 301,Software Engineering,3,Spring,2020,I26
+368,SWHCI 351,Software Engineering,3,Summer,2020,I78
+369,SWHCI 352,Software Engineering,3,Summer,2020,I28
+370,SWHCI 401,Software Engineering,3,Spring,2020,I78
+371,SWHCI 402,Software Engineering,3,Fall,2020,I77
+372,SWHCI 451,Software Engineering,3,Fall,2020,I77
+373,SWHCI 452,Software Engineering,3,Summer,2020,I96
+374,SWHCI 453,Software Engineering,3,Summer,2020,I85
+375,MATH 101,Mathematics,3,Summer,2020,I91
+376,MATH 102,Mathematics,3,Summer,2020,I91
+377,MATH 103,Mathematics,3,Spring,2020,I88
+378,MATH 104,Mathematics,3,Fall,2020,I23
+379,MATH 105,Mathematics,3,Summer,2020,I52
+380,MATH 106,Mathematics,3,Fall,2020,I19
+381,MATH 107,Mathematics,3,Spring,2020,I91
+382,MATH 108,Mathematics,3,Spring,2020,I30
+383,MATH 109,Mathematics,3,Summer,2020,I91
+384,MATH 110,Mathematics,3,Fall,2020,I34
+385,MATH 111,Mathematics,3,Fall,2020,I59
+386,MATH 112,Mathematics,3,Summer,2020,I88
+387,MATH 113,Mathematics,3,Summer,2020,I52
+388,MATH 114,Mathematics,3,Fall,2020,I30
+389,MATH 115,Mathematics,3,Fall,2020,I59
+390,MATH 116,Mathematics,3,Fall,2020,I98
+391,MATH 117,Mathematics,3,Fall,2020,I88
+392,MATH 118,Mathematics,3,Summer,2020,I98
+393,MATH 119,Mathematics,3,Spring,2020,I91
+394,MATH 120,Mathematics,3,Summer,2020,I30
+395,MATH 121,Mathematics,3,Summer,2020,I30
+396,MATH 122,Mathematics,3,Fall,2020,I40
+397,MATH 123,Mathematics,3,Summer,2020,I59
+398,MATH 124,Mathematics,3,Spring,2020,I73
+399,MATH 125,Mathematics,3,Fall,2020,I19
+400,MATH 126,Mathematics,3,Summer,2020,I98
+401,MATH 127,Mathematics,3,Fall,2020,I34
+402,MATH 128,Mathematics,3,Fall,2020,I84
+403,MATH 129,Mathematics,3,Spring,2020,I4
+404,ENGR 101,Engineering,3,Spring,2020,I86
+405,ENGR 102,Engineering,3,Summer,2020,I37
+406,ENGR 103,Engineering,3,Spring,2020,I43
+407,ENGR 104,Engineering,3,Spring,2020,I36
+408,ENGR 105,Engineering,3,Spring,2020,I55
+409,ENGR 106,Engineering,3,Fall,2020,I12
+410,ENGR 107,Engineering,3,Summer,2020,I93
+411,ENGR 108,Engineering,3,Fall,2020,I24
+412,ENGR 109,Engineering,3,Fall,2020,I93
+413,ENGR 110,Engineering,3,Spring,2020,I86
+414,ENGR 111,Engineering,3,Fall,2020,I37
+415,ENGR 112,Engineering,3,Fall,2020,I5
+416,ENGR 113,Engineering,3,Fall,2020,I65
+417,ENGR 114,Engineering,3,Fall,2020,I27
+418,ENGR 115,Engineering,3,Fall,2020,I17
+419,ENGR 116,Engineering,3,Spring,2020,I14
+420,ENGR 117,Engineering,3,Fall,2020,I86
+421,ENGR 118,Engineering,3,Summer,2020,I93
+422,ENGR 119,Engineering,3,Summer,2020,I27
+423,ENGR 120,Engineering,3,Spring,2020,I8
+424,ENGR 121,Engineering,3,Summer,2020,I80
+425,ENGR 122,Engineering,3,Fall,2020,I86
+426,ENGR 123,Engineering,3,Spring,2020,I27
+427,ENGR 124,Engineering,3,Spring,2020,I93
+428,ENGR 125,Engineering,3,Fall,2020,I57
+429,ENGR 126,Engineering,3,Summer,2020,I31
+430,ENGR 127,Engineering,3,Spring,2020,I65
+431,ENGR 128,Engineering,3,Spring,2020,I22
+432,ENGR 129,Engineering,3,Summer,2020,I37
+433,SCIE 101,Science,3,Summer,2020,I13
+434,SCIE 102,Science,3,Spring,2020,I62
+435,SCIE 103,Science,3,Spring,2020,I42
+436,SCIE 104,Science,3,Summer,2020,I50
+437,SCIE 105,Science,3,Summer,2020,I74
+438,SCIE 106,Science,3,Fall,2020,I53
+439,SCIE 107,Science,3,Summer,2020,I58
+440,SCIE 108,Science,3,Fall,2020,I48
+441,SCIE 109,Science,3,Fall,2020,I49
+442,SCIE 110,Science,3,Fall,2020,I58
+443,SCIE 111,Science,3,Fall,2020,I2
+444,SCIE 112,Science,3,Summer,2020,I13
+445,SCIE 113,Science,3,Fall,2020,I94
+446,SCIE 114,Science,3,Fall,2020,I58
+447,SCIE 115,Science,3,Spring,2020,I83
+448,SCIE 116,Science,3,Spring,2020,I29
+449,SCIE 117,Science,3,Spring,2020,I94
+450,SCIE 118,Science,3,Summer,2020,I29
+451,SCIE 119,Science,3,Fall,2020,I89
+452,SCIE 120,Science,3,Summer,2020,I29
+453,SCIE 121,Science,3,Fall,2020,I99
+454,SCIE 122,Science,3,Fall,2020,I50
+455,SCIE 123,Science,3,Summer,2020,I69
+456,SCIE 124,Science,3,Spring,2020,I33
+457,SCIE 125,Science,3,Spring,2020,I67
+458,SCIE 126,Science,3,Fall,2020,I2
+459,SCIE 127,Science,3,Summer,2020,I62
+460,SCIE 128,Science,3,Summer,2020,I35
+461,SCIE 129,Science,3,Fall,2020,I33
+462,CSAI 101,Data Science,3,Summer,2021,I39
+463,CSAI 102,Data Science,3,Spring,2021,I85
+464,CSAI 151,Data Science,3,Summer,2021,I44
+465,CSAI 201,Data Science,3,Summer,2021,I72
+466,CSAI 202,Data Science,3,Fall,2021,I85
+467,CSAI 203,Data Science,3,Fall,2021,I44
+468,CSAI 204,Data Science,3,Summer,2021,I9
+469,CSAI 205,Data Science,3,Spring,2021,I87
+470,CSAI 251,Data Science,3,Summer,2021,I77
+471,CSAI 252,Data Science,3,Fall,2021,I97
+472,CSAI 201,Data Science,3,Spring,2021,I46
+473,CSAI 253,Data Science,3,Spring,2021,I11
+474,CSAI 301,Data Science,3,Fall,2021,I85
+475,CSAI 399,Data Science,3,Summer,2021,I39
+476,CSAI 498,Data Science,3,Summer,2021,I85
+477,CSAI 499,Data Science,3,Fall,2021,I28
+478,DSAI 103,Data Science,3,Fall,2021,I85
+479,DSAI 104,Data Science,3,Spring,2021,I26
+480,DSAI 201,Data Science,3,Summer,2021,I77
+481,DSAI 202,Data Science,3,Summer,2021,I7
+482,DSAI 203,Data Science,3,Fall,2021,I61
+483,DSAI 305,Data Science,3,Fall,2021,I96
+484,DSAI 307,Data Science,3,Fall,2021,I63
+485,DSAI 308,Data Science,3,Fall,2021,I28
+486,DSAI 325,Data Science,3,Fall,2021,I39
+487,DSAI 352,Data Science,3,Fall,2021,I3
+488,DSAI 353,Data Science,3,Spring,2021,I63
+489,DSAI 402,Data Science,3,Summer,2021,I51
+490,DSAI 403,Data Science,3,Summer,2021,I97
+491,DSAI 406,Data Science,3,Fall,2021,I7
+492,DSAI 413,Data Science,3,Summer,2021,I96
+493,DSAI 414,Data Science,3,Spring,2021,I9
+494,DSAI 415,Data Science,3,Spring,2021,I7
+495,DSAI 416,Data Science,3,Spring,2021,I46
+496,DSAI 417,Data Science,3,Spring,2021,I87
+497,DSAI 418,Data Science,3,Spring,2021,I26
+498,DSAI 427,Data Science,3,Fall,2021,I72
+499,DSAI 431,Data Science,3,Spring,2021,I20
+500,DSAI 433,Data Science,3,Summer,2021,I87
+501,DSAI 456,Data Science,3,Summer,2021,I63
+502,DSAI 473,Data Science,3,Fall,2021,I77
+503,DSAI 490,Data Science,3,Fall,2021,I61
+504,CSAI 101,Data Science,3,Spring,2021,I9
+505,CSAI 102,Data Science,3,Fall,2021,I26
+506,CSAI 151,Data Science,3,Spring,2021,I77
+507,CSAI 201,Data Science,3,Fall,2021,I96
+508,CSAI 202,Data Science,3,Fall,2021,I85
+509,CSAI 203,Data Science,3,Summer,2021,I97
+510,CSAI 204,Data Science,3,Fall,2021,I77
+511,CSAI 205,Data Science,3,Summer,2021,I63
+512,CSAI 251,Data Science,3,Fall,2021,I77
+513,CSAI 252,Data Science,3,Summer,2021,I96
+514,CSAI 201,Data Science,3,Spring,2021,I46
+515,CSAI 253,Data Science,3,Fall,2021,I97
+516,CSAI 301,Data Science,3,Summer,2021,I20
+517,CSAI 399,Data Science,3,Summer,2021,I85
+518,CSAI 498,Data Science,3,Spring,2021,I78
+519,CSAI 499,Data Science,3,Spring,2021,I11
+520,IT 101,Information Technology,3,Fall,2021,I63
+521,IT 102,Information Technology,3,Summer,2021,I20
+522,IT 103,Information Technology,3,Fall,2021,I87
+523,IT 205,Information Technology,3,Spring,2021,I11
+524,IT 206,Information Technology,3,Fall,2021,I7
+525,IT 220,Information Technology,3,Summer,2021,I63
+526,IT 222,Information Technology,3,Fall,2021,I26
+527,IT 308,Information Technology,3,Fall,2021,I3
+528,IT 309,Information Technology,3,Spring,2021,I26
+529,IT 310,Information Technology,3,Spring,2021,I78
+530,IT 401,Information Technology,3,Summer,2021,I85
+531,IT 402,Information Technology,3,Spring,2021,I39
+532,IT 411,Information Technology,3,Summer,2021,I72
+533,ITCC 301,Information Technology,3,Summer,2021,I20
+534,ITCC 403,Information Technology,3,Summer,2021,I3
+535,ITCC 404,Information Technology,3,Summer,2021,I38
+536,ITCC 405,Information Technology,3,Spring,2021,I85
+537,ITCC 406,Information Technology,3,Summer,2021,I77
+538,ITCC 407,Information Technology,3,Spring,2021,I78
+539,ITCC 408,Information Technology,3,Summer,2021,I77
+540,ITCC 410,Information Technology,3,Spring,2021,I77
+541,ITCC 411,Information Technology,3,Fall,2021,I96
+542,ITCC 412,Information Technology,3,Fall,2021,I9
+543,ITCC 413,Information Technology,3,Spring,2021,I87
+544,ITCC 414,Information Technology,3,Summer,2021,I39
+545,ITCC 415,Information Technology,3,Fall,2021,I51
+546,ITNS 301,Information Technology,3,Spring,2021,I51
+547,ITNS 302,Information Technology,3,Fall,2021,I28
+548,ITNS 403,Information Technology,3,Summer,2021,I26
+549,ITNS 404,Information Technology,3,Fall,2021,I3
+550,ITNS 406,Information Technology,3,Spring,2021,I44
+551,ITNS 407,Information Technology,3,Spring,2021,I85
+552,ITNS 408,Information Technology,3,Fall,2021,I11
+553,ITNS 410,Information Technology,3,Summer,2021,I51
+554,ITNS 411,Information Technology,3,Spring,2021,I77
+555,ITNS 412,Information Technology,3,Summer,2021,I85
+556,ITNS 413,Information Technology,3,Spring,2021,I3
+557,ITNS 414,Information Technology,3,Summer,2021,I97
+558,ITNS 415,Information Technology,3,Summer,2021,I46
+559,CSAI 101,Data Science,3,Fall,2021,I72
+560,CSAI 102,Data Science,3,Summer,2021,I44
+561,CSAI 151,Data Science,3,Summer,2021,I61
+562,CSAI 201,Data Science,3,Spring,2021,I77
+563,CSAI 202,Data Science,3,Summer,2021,I72
+564,CSAI 203,Data Science,3,Spring,2021,I72
+565,CSAI 204,Data Science,3,Summer,2021,I97
+566,CSAI 205,Data Science,3,Fall,2021,I87
+567,CSAI 251,Data Science,3,Fall,2021,I44
+568,CSAI 252,Data Science,3,Fall,2021,I26
+569,CSAI 201,Data Science,3,Summer,2021,I61
+570,CSAI 253,Data Science,3,Summer,2021,I87
+571,CSAI 301,Data Science,3,Summer,2021,I51
+572,CSAI 399,Data Science,3,Spring,2021,I9
+573,CSAI 498,Data Science,3,Fall,2021,I46
+574,CSAI 499,Data Science,3,Summer,2021,I44
+575,SW 151,Software Engineering,3,Fall,2021,I9
+576,SW 251,Software Engineering,3,Summer,2021,I97
+577,SW 252,Software Engineering,3,Summer,2021,I96
+578,SW 301,Software Engineering,3,Fall,2021,I63
+579,SW 302,Software Engineering,3,Fall,2021,I96
+580,SW 401,Software Engineering,3,Fall,2021,I44
+581,SW 402,Software Engineering,3,Summer,2021,I78
+582,SWAPD 301,Software Engineering,3,Summer,2021,I96
+583,SWAPD 351,Software Engineering,3,Fall,2021,I46
+584,SWAPD 352,Software Engineering,3,Spring,2021,I63
+585,SWAPD 401,Software Engineering,3,Summer,2021,I28
+586,SWAPD 402,Software Engineering,3,Spring,2021,I9
+587,SWAPD 451,Software Engineering,3,Summer,2021,I26
+588,SWAPD 452,Software Engineering,3,Summer,2021,I28
+589,SWAPD 453,Software Engineering,3,Spring,2021,I87
+590,SWGCG 301,Software Engineering,3,Spring,2021,I46
+591,SWGCG 351,Software Engineering,3,Spring,2021,I61
+592,SWGCG 352,Software Engineering,3,Summer,2021,I44
+593,SWGCG 401,Software Engineering,3,Spring,2021,I3
+594,SWGCG 402,Software Engineering,3,Fall,2021,I63
+595,SWGCG 451,Software Engineering,3,Spring,2021,I20
+596,SWGCG 452,Software Engineering,3,Fall,2021,I51
+597,SWGCG 453,Software Engineering,3,Fall,2021,I26
+598,SWHCI 301,Software Engineering,3,Summer,2021,I97
+599,SWHCI 351,Software Engineering,3,Spring,2021,I61
+600,SWHCI 352,Software Engineering,3,Summer,2021,I72
+601,SWHCI 401,Software Engineering,3,Spring,2021,I9
+602,SWHCI 402,Software Engineering,3,Spring,2021,I26
+603,SWHCI 451,Software Engineering,3,Fall,2021,I38
+604,SWHCI 452,Software Engineering,3,Spring,2021,I77
+605,SWHCI 453,Software Engineering,3,Summer,2021,I87
+606,MATH 101,Mathematics,3,Summer,2021,I98
+607,MATH 102,Mathematics,3,Fall,2021,I34
+608,MATH 103,Mathematics,3,Fall,2021,I88
+609,MATH 104,Mathematics,3,Summer,2021,I66
+610,MATH 105,Mathematics,3,Spring,2021,I52
+611,MATH 106,Mathematics,3,Spring,2021,I34
+612,MATH 107,Mathematics,3,Summer,2021,I4
+613,MATH 108,Mathematics,3,Fall,2021,I98
+614,MATH 109,Mathematics,3,Summer,2021,I23
+615,MATH 110,Mathematics,3,Spring,2021,I66
+616,MATH 111,Mathematics,3,Summer,2021,I84
+617,MATH 112,Mathematics,3,Spring,2021,I40
+618,MATH 113,Mathematics,3,Fall,2021,I88
+619,MATH 114,Mathematics,3,Summer,2021,I66
+620,MATH 115,Mathematics,3,Spring,2021,I84
+621,MATH 116,Mathematics,3,Spring,2021,I4
+622,MATH 117,Mathematics,3,Spring,2021,I90
+623,MATH 118,Mathematics,3,Spring,2021,I4
+624,MATH 119,Mathematics,3,Summer,2021,I30
+625,MATH 120,Mathematics,3,Summer,2021,I88
+626,MATH 121,Mathematics,3,Summer,2021,I59
+627,MATH 122,Mathematics,3,Summer,2021,I59
+628,MATH 123,Mathematics,3,Summer,2021,I23
+629,MATH 124,Mathematics,3,Summer,2021,I30
+630,MATH 125,Mathematics,3,Spring,2021,I52
+631,MATH 126,Mathematics,3,Spring,2021,I40
+632,MATH 127,Mathematics,3,Summer,2021,I34
+633,MATH 128,Mathematics,3,Fall,2021,I40
+634,MATH 129,Mathematics,3,Fall,2021,I84
+635,ENGR 101,Engineering,3,Spring,2021,I47
+636,ENGR 102,Engineering,3,Fall,2021,I5
+637,ENGR 103,Engineering,3,Summer,2021,I80
+638,ENGR 104,Engineering,3,Spring,2021,I65
+639,ENGR 105,Engineering,3,Spring,2021,I81
+640,ENGR 106,Engineering,3,Spring,2021,I80
+641,ENGR 107,Engineering,3,Spring,2021,I86
+642,ENGR 108,Engineering,3,Fall,2021,I45
+643,ENGR 109,Engineering,3,Fall,2021,I57
+644,ENGR 110,Engineering,3,Spring,2021,I86
+645,ENGR 111,Engineering,3,Spring,2021,I5
+646,ENGR 112,Engineering,3,Summer,2021,I8
+647,ENGR 113,Engineering,3,Spring,2021,I47
+648,ENGR 114,Engineering,3,Spring,2021,I22
+649,ENGR 115,Engineering,3,Summer,2021,I47
+650,ENGR 116,Engineering,3,Fall,2021,I17
+651,ENGR 117,Engineering,3,Summer,2021,I47
+652,ENGR 118,Engineering,3,Summer,2021,I12
+653,ENGR 119,Engineering,3,Fall,2021,I86
+654,ENGR 120,Engineering,3,Fall,2021,I17
+655,ENGR 121,Engineering,3,Spring,2021,I65
+656,ENGR 122,Engineering,3,Fall,2021,I5
+657,ENGR 123,Engineering,3,Fall,2021,I55
+658,ENGR 124,Engineering,3,Summer,2021,I43
+659,ENGR 125,Engineering,3,Fall,2021,I81
+660,ENGR 126,Engineering,3,Summer,2021,I5
+661,ENGR 127,Engineering,3,Fall,2021,I86
+662,ENGR 128,Engineering,3,Fall,2021,I93
+663,ENGR 129,Engineering,3,Fall,2021,I55
+664,SCIE 101,Science,3,Fall,2021,I79
+665,SCIE 102,Science,3,Summer,2021,I79
+666,SCIE 103,Science,3,Spring,2021,I99
+667,SCIE 104,Science,3,Summer,2021,I53
+668,SCIE 105,Science,3,Fall,2021,I33
+669,SCIE 106,Science,3,Spring,2021,I69
+670,SCIE 107,Science,3,Fall,2021,I71
+671,SCIE 108,Science,3,Fall,2021,I76
+672,SCIE 109,Science,3,Summer,2021,I60
+673,SCIE 110,Science,3,Summer,2021,I15
+674,SCIE 111,Science,3,Summer,2021,I29
+675,SCIE 112,Science,3,Summer,2021,I42
+676,SCIE 113,Science,3,Summer,2021,I83
+677,SCIE 114,Science,3,Spring,2021,I10
+678,SCIE 115,Science,3,Spring,2021,I94
+679,SCIE 116,Science,3,Spring,2021,I71
+680,SCIE 117,Science,3,Fall,2021,I92
+681,SCIE 118,Science,3,Fall,2021,I100
+682,SCIE 119,Science,3,Summer,2021,I99
+683,SCIE 120,Science,3,Summer,2021,I71
+684,SCIE 121,Science,3,Fall,2021,I94
+685,SCIE 122,Science,3,Summer,2021,I50
+686,SCIE 123,Science,3,Spring,2021,I60
+687,SCIE 124,Science,3,Fall,2021,I2
+688,SCIE 125,Science,3,Summer,2021,I67
+689,SCIE 126,Science,3,Spring,2021,I74
+690,SCIE 127,Science,3,Summer,2021,I67
+691,SCIE 128,Science,3,Summer,2021,I92
+692,SCIE 129,Science,3,Summer,2021,I35
+693,CSAI 101,Data Science,3,Spring,2022,I87
+694,CSAI 102,Data Science,3,Spring,2022,I20
+695,CSAI 151,Data Science,3,Summer,2022,I3
+696,CSAI 201,Data Science,3,Fall,2022,I20
+697,CSAI 202,Data Science,3,Fall,2022,I63
+698,CSAI 203,Data Science,3,Spring,2022,I51
+699,CSAI 204,Data Science,3,Spring,2022,I44
+700,CSAI 205,Data Science,3,Summer,2022,I63
+701,CSAI 251,Data Science,3,Fall,2022,I11
+702,CSAI 252,Data Science,3,Summer,2022,I7
+703,CSAI 201,Data Science,3,Summer,2022,I9
+704,CSAI 253,Data Science,3,Summer,2022,I20
+705,CSAI 301,Data Science,3,Fall,2022,I72
+706,CSAI 399,Data Science,3,Summer,2022,I72
+707,CSAI 498,Data Science,3,Summer,2022,I11
+708,CSAI 499,Data Science,3,Spring,2022,I39
+709,DSAI 103,Data Science,3,Fall,2022,I46
+710,DSAI 104,Data Science,3,Summer,2022,I51
+711,DSAI 201,Data Science,3,Fall,2022,I11
+712,DSAI 202,Data Science,3,Summer,2022,I26
+713,DSAI 203,Data Science,3,Fall,2022,I7
+714,DSAI 305,Data Science,3,Fall,2022,I44
+715,DSAI 307,Data Science,3,Spring,2022,I3
+716,DSAI 308,Data Science,3,Fall,2022,I11
+717,DSAI 325,Data Science,3,Fall,2022,I97
+718,DSAI 352,Data Science,3,Summer,2022,I96
+719,DSAI 353,Data Science,3,Spring,2022,I77
+720,DSAI 402,Data Science,3,Summer,2022,I28
+721,DSAI 403,Data Science,3,Summer,2022,I11
+722,DSAI 406,Data Science,3,Summer,2022,I63
+723,DSAI 413,Data Science,3,Summer,2022,I63
+724,DSAI 414,Data Science,3,Summer,2022,I96
+725,DSAI 415,Data Science,3,Summer,2022,I51
+726,DSAI 416,Data Science,3,Fall,2022,I51
+727,DSAI 417,Data Science,3,Summer,2022,I85
+728,DSAI 418,Data Science,3,Summer,2022,I77
+729,DSAI 427,Data Science,3,Fall,2022,I97
+730,DSAI 431,Data Science,3,Fall,2022,I51
+731,DSAI 433,Data Science,3,Summer,2022,I26
+732,DSAI 456,Data Science,3,Fall,2022,I63
+733,DSAI 473,Data Science,3,Spring,2022,I85
+734,DSAI 490,Data Science,3,Spring,2022,I87
+735,CSAI 101,Data Science,3,Summer,2022,I61
+736,CSAI 102,Data Science,3,Summer,2022,I28
+737,CSAI 151,Data Science,3,Summer,2022,I20
+738,CSAI 201,Data Science,3,Spring,2022,I96
+739,CSAI 202,Data Science,3,Summer,2022,I61
+740,CSAI 203,Data Science,3,Summer,2022,I39
+741,CSAI 204,Data Science,3,Summer,2022,I96
+742,CSAI 205,Data Science,3,Summer,2022,I3
+743,CSAI 251,Data Science,3,Spring,2022,I26
+744,CSAI 252,Data Science,3,Fall,2022,I44
+745,CSAI 201,Data Science,3,Fall,2022,I63
+746,CSAI 253,Data Science,3,Spring,2022,I87
+747,CSAI 301,Data Science,3,Summer,2022,I72
+748,CSAI 399,Data Science,3,Spring,2022,I28
+749,CSAI 498,Data Science,3,Spring,2022,I38
+750,CSAI 499,Data Science,3,Spring,2022,I72
+751,IT 101,Information Technology,3,Spring,2022,I44
+752,IT 102,Information Technology,3,Fall,2022,I28
+753,IT 103,Information Technology,3,Spring,2022,I77
+754,IT 205,Information Technology,3,Spring,2022,I28
+755,IT 206,Information Technology,3,Summer,2022,I63
+756,IT 220,Information Technology,3,Spring,2022,I3
+757,IT 222,Information Technology,3,Summer,2022,I39
+758,IT 308,Information Technology,3,Fall,2022,I46
+759,IT 309,Information Technology,3,Spring,2022,I77
+760,IT 310,Information Technology,3,Spring,2022,I9
+761,IT 401,Information Technology,3,Spring,2022,I77
+762,IT 402,Information Technology,3,Spring,2022,I44
+763,IT 411,Information Technology,3,Summer,2022,I44
+764,ITCC 301,Information Technology,3,Spring,2022,I46
+765,ITCC 403,Information Technology,3,Summer,2022,I51
+766,ITCC 404,Information Technology,3,Spring,2022,I51
+767,ITCC 405,Information Technology,3,Fall,2022,I96
+768,ITCC 406,Information Technology,3,Fall,2022,I26
+769,ITCC 407,Information Technology,3,Summer,2022,I3
+770,ITCC 408,Information Technology,3,Spring,2022,I9
+771,ITCC 410,Information Technology,3,Spring,2022,I7
+772,ITCC 411,Information Technology,3,Fall,2022,I44
+773,ITCC 412,Information Technology,3,Summer,2022,I26
+774,ITCC 413,Information Technology,3,Spring,2022,I96
+775,ITCC 414,Information Technology,3,Spring,2022,I38
+776,ITCC 415,Information Technology,3,Fall,2022,I9
+777,ITNS 301,Information Technology,3,Spring,2022,I28
+778,ITNS 302,Information Technology,3,Fall,2022,I26
+779,ITNS 403,Information Technology,3,Fall,2022,I63
+780,ITNS 404,Information Technology,3,Summer,2022,I85
+781,ITNS 406,Information Technology,3,Fall,2022,I61
+782,ITNS 407,Information Technology,3,Spring,2022,I87
+783,ITNS 408,Information Technology,3,Spring,2022,I7
+784,ITNS 410,Information Technology,3,Fall,2022,I9
+785,ITNS 411,Information Technology,3,Spring,2022,I51
+786,ITNS 412,Information Technology,3,Summer,2022,I38
+787,ITNS 413,Information Technology,3,Spring,2022,I20
+788,ITNS 414,Information Technology,3,Summer,2022,I39
+789,ITNS 415,Information Technology,3,Summer,2022,I63
+790,CSAI 101,Data Science,3,Spring,2022,I11
+791,CSAI 102,Data Science,3,Summer,2022,I46
+792,CSAI 151,Data Science,3,Spring,2022,I28
+793,CSAI 201,Data Science,3,Fall,2022,I63
+794,CSAI 202,Data Science,3,Fall,2022,I61
+795,CSAI 203,Data Science,3,Spring,2022,I11
+796,CSAI 204,Data Science,3,Summer,2022,I3
+797,CSAI 205,Data Science,3,Fall,2022,I3
+798,CSAI 251,Data Science,3,Fall,2022,I87
+799,CSAI 252,Data Science,3,Fall,2022,I39
+800,CSAI 201,Data Science,3,Fall,2022,I77
+801,CSAI 253,Data Science,3,Fall,2022,I78
+802,CSAI 301,Data Science,3,Fall,2022,I39
+803,CSAI 399,Data Science,3,Fall,2022,I77
+804,CSAI 498,Data Science,3,Fall,2022,I39
+805,CSAI 499,Data Science,3,Summer,2022,I11
+806,SW 151,Software Engineering,3,Fall,2022,I72
+807,SW 251,Software Engineering,3,Spring,2022,I44
+808,SW 252,Software Engineering,3,Spring,2022,I11
+809,SW 301,Software Engineering,3,Summer,2022,I28
+810,SW 302,Software Engineering,3,Fall,2022,I20
+811,SW 401,Software Engineering,3,Summer,2022,I9
+812,SW 402,Software Engineering,3,Spring,2022,I63
+813,SWAPD 301,Software Engineering,3,Summer,2022,I3
+814,SWAPD 351,Software Engineering,3,Fall,2022,I39
+815,SWAPD 352,Software Engineering,3,Summer,2022,I44
+816,SWAPD 401,Software Engineering,3,Summer,2022,I97
+817,SWAPD 402,Software Engineering,3,Spring,2022,I9
+818,SWAPD 451,Software Engineering,3,Summer,2022,I39
+819,SWAPD 452,Software Engineering,3,Summer,2022,I39
+820,SWAPD 453,Software Engineering,3,Fall,2022,I46
+821,SWGCG 301,Software Engineering,3,Fall,2022,I46
+822,SWGCG 351,Software Engineering,3,Fall,2022,I77
+823,SWGCG 352,Software Engineering,3,Summer,2022,I61
+824,SWGCG 401,Software Engineering,3,Spring,2022,I44
+825,SWGCG 402,Software Engineering,3,Summer,2022,I7
+826,SWGCG 451,Software Engineering,3,Summer,2022,I63
+827,SWGCG 452,Software Engineering,3,Summer,2022,I20
+828,SWGCG 453,Software Engineering,3,Spring,2022,I85
+829,SWHCI 301,Software Engineering,3,Spring,2022,I96
+830,SWHCI 351,Software Engineering,3,Summer,2022,I96
+831,SWHCI 352,Software Engineering,3,Spring,2022,I44
+832,SWHCI 401,Software Engineering,3,Spring,2022,I39
+833,SWHCI 402,Software Engineering,3,Spring,2022,I72
+834,SWHCI 451,Software Engineering,3,Spring,2022,I78
+835,SWHCI 452,Software Engineering,3,Spring,2022,I97
+836,SWHCI 453,Software Engineering,3,Summer,2022,I87
+837,MATH 101,Mathematics,3,Fall,2022,I84
+838,MATH 102,Mathematics,3,Fall,2022,I90
+839,MATH 103,Mathematics,3,Spring,2022,I4
+840,MATH 104,Mathematics,3,Spring,2022,I25
+841,MATH 105,Mathematics,3,Fall,2022,I40
+842,MATH 106,Mathematics,3,Summer,2022,I52
+843,MATH 107,Mathematics,3,Summer,2022,I4
+844,MATH 108,Mathematics,3,Fall,2022,I25
+845,MATH 109,Mathematics,3,Summer,2022,I19
+846,MATH 110,Mathematics,3,Spring,2022,I52
+847,MATH 111,Mathematics,3,Spring,2022,I40
+848,MATH 112,Mathematics,3,Spring,2022,I25
+849,MATH 113,Mathematics,3,Summer,2022,I52
+850,MATH 114,Mathematics,3,Summer,2022,I84
+851,MATH 115,Mathematics,3,Spring,2022,I88
+852,MATH 116,Mathematics,3,Summer,2022,I52
+853,MATH 117,Mathematics,3,Summer,2022,I90
+854,MATH 118,Mathematics,3,Spring,2022,I25
+855,MATH 119,Mathematics,3,Summer,2022,I90
+856,MATH 120,Mathematics,3,Summer,2022,I25
+857,MATH 121,Mathematics,3,Fall,2022,I73
+858,MATH 122,Mathematics,3,Spring,2022,I91
+859,MATH 123,Mathematics,3,Fall,2022,I52
+860,MATH 124,Mathematics,3,Fall,2022,I19
+861,MATH 125,Mathematics,3,Spring,2022,I30
+862,MATH 126,Mathematics,3,Fall,2022,I52
+863,MATH 127,Mathematics,3,Fall,2022,I84
+864,MATH 128,Mathematics,3,Spring,2022,I90
+865,MATH 129,Mathematics,3,Summer,2022,I30
+866,ENGR 101,Engineering,3,Fall,2022,I57
+867,ENGR 102,Engineering,3,Summer,2022,I45
+868,ENGR 103,Engineering,3,Spring,2022,I12
+869,ENGR 104,Engineering,3,Fall,2022,I18
+870,ENGR 105,Engineering,3,Spring,2022,I43
+871,ENGR 106,Engineering,3,Spring,2022,I6
+872,ENGR 107,Engineering,3,Spring,2022,I27
+873,ENGR 108,Engineering,3,Fall,2022,I47
+874,ENGR 109,Engineering,3,Spring,2022,I17
+875,ENGR 110,Engineering,3,Spring,2022,I65
+876,ENGR 111,Engineering,3,Spring,2022,I43
+877,ENGR 112,Engineering,3,Summer,2022,I6
+878,ENGR 113,Engineering,3,Summer,2022,I1
+879,ENGR 114,Engineering,3,Summer,2022,I36
+880,ENGR 115,Engineering,3,Fall,2022,I57
+881,ENGR 116,Engineering,3,Summer,2022,I57
+882,ENGR 117,Engineering,3,Fall,2022,I24
+883,ENGR 118,Engineering,3,Summer,2022,I24
+884,ENGR 119,Engineering,3,Summer,2022,I31
+885,ENGR 120,Engineering,3,Summer,2022,I36
+886,ENGR 121,Engineering,3,Fall,2022,I54
+887,ENGR 122,Engineering,3,Summer,2022,I81
+888,ENGR 123,Engineering,3,Fall,2022,I6
+889,ENGR 124,Engineering,3,Summer,2022,I36
+890,ENGR 125,Engineering,3,Summer,2022,I31
+891,ENGR 126,Engineering,3,Spring,2022,I12
+892,ENGR 127,Engineering,3,Spring,2022,I45
+893,ENGR 128,Engineering,3,Spring,2022,I27
+894,ENGR 129,Engineering,3,Spring,2022,I70
+895,SCIE 101,Science,3,Spring,2022,I100
+896,SCIE 102,Science,3,Fall,2022,I82
+897,SCIE 103,Science,3,Summer,2022,I58
+898,SCIE 104,Science,3,Summer,2022,I29
+899,SCIE 105,Science,3,Spring,2022,I71
+900,SCIE 106,Science,3,Fall,2022,I69
+901,SCIE 107,Science,3,Spring,2022,I35
+902,SCIE 108,Science,3,Summer,2022,I29
+903,SCIE 109,Science,3,Fall,2022,I56
+904,SCIE 110,Science,3,Fall,2022,I94
+905,SCIE 111,Science,3,Spring,2022,I56
+906,SCIE 112,Science,3,Summer,2022,I50
+907,SCIE 113,Science,3,Fall,2022,I32
+908,SCIE 114,Science,3,Summer,2022,I74
+909,SCIE 115,Science,3,Summer,2022,I75
+910,SCIE 116,Science,3,Summer,2022,I60
+911,SCIE 117,Science,3,Spring,2022,I95
+912,SCIE 118,Science,3,Spring,2022,I56
+913,SCIE 119,Science,3,Spring,2022,I83
+914,SCIE 120,Science,3,Spring,2022,I64
+915,SCIE 121,Science,3,Summer,2022,I42
+916,SCIE 122,Science,3,Spring,2022,I33
+917,SCIE 123,Science,3,Fall,2022,I62
+918,SCIE 124,Science,3,Spring,2022,I82
+919,SCIE 125,Science,3,Spring,2022,I48
+920,SCIE 126,Science,3,Summer,2022,I2
+921,SCIE 127,Science,3,Spring,2022,I69
+922,SCIE 128,Science,3,Summer,2022,I42
+923,SCIE 129,Science,3,Summer,2022,I21
+924,CSAI 101,Data Science,3,Summer,2023,I78
+925,CSAI 102,Data Science,3,Spring,2023,I9
+926,CSAI 151,Data Science,3,Fall,2023,I39
+927,CSAI 201,Data Science,3,Spring,2023,I78
+928,CSAI 202,Data Science,3,Fall,2023,I97
+929,CSAI 203,Data Science,3,Fall,2023,I72
+930,CSAI 204,Data Science,3,Spring,2023,I9
+931,CSAI 205,Data Science,3,Summer,2023,I3
+932,CSAI 251,Data Science,3,Spring,2023,I38
+933,CSAI 252,Data Science,3,Spring,2023,I96
+934,CSAI 201,Data Science,3,Summer,2023,I28
+935,CSAI 253,Data Science,3,Summer,2023,I63
+936,CSAI 301,Data Science,3,Summer,2023,I61
+937,CSAI 399,Data Science,3,Spring,2023,I28
+938,CSAI 498,Data Science,3,Summer,2023,I3
+939,CSAI 499,Data Science,3,Spring,2023,I77
+940,DSAI 103,Data Science,3,Fall,2023,I39
+941,DSAI 104,Data Science,3,Summer,2023,I51
+942,DSAI 201,Data Science,3,Spring,2023,I78
+943,DSAI 202,Data Science,3,Fall,2023,I61
+944,DSAI 203,Data Science,3,Summer,2023,I97
+945,DSAI 305,Data Science,3,Spring,2023,I26
+946,DSAI 307,Data Science,3,Spring,2023,I61
+947,DSAI 308,Data Science,3,Spring,2023,I87
+948,DSAI 325,Data Science,3,Spring,2023,I87
+949,DSAI 352,Data Science,3,Summer,2023,I85
+950,DSAI 353,Data Science,3,Spring,2023,I51
+951,DSAI 402,Data Science,3,Spring,2023,I38
+952,DSAI 403,Data Science,3,Summer,2023,I9
+953,DSAI 406,Data Science,3,Fall,2023,I63
+954,DSAI 413,Data Science,3,Fall,2023,I44
+955,DSAI 414,Data Science,3,Spring,2023,I46
+956,DSAI 415,Data Science,3,Spring,2023,I85
+957,DSAI 416,Data Science,3,Fall,2023,I9
+958,DSAI 417,Data Science,3,Summer,2023,I38
+959,DSAI 418,Data Science,3,Summer,2023,I72
+960,DSAI 427,Data Science,3,Fall,2023,I39
+961,DSAI 431,Data Science,3,Spring,2023,I28
+962,DSAI 433,Data Science,3,Spring,2023,I46
+963,DSAI 456,Data Science,3,Spring,2023,I38
+964,DSAI 473,Data Science,3,Fall,2023,I20
+965,DSAI 490,Data Science,3,Fall,2023,I61
+966,CSAI 101,Data Science,3,Fall,2023,I78
+967,CSAI 102,Data Science,3,Summer,2023,I87
+968,CSAI 151,Data Science,3,Summer,2023,I77
+969,CSAI 201,Data Science,3,Fall,2023,I78
+970,CSAI 202,Data Science,3,Spring,2023,I28
+971,CSAI 203,Data Science,3,Summer,2023,I39
+972,CSAI 204,Data Science,3,Summer,2023,I20
+973,CSAI 205,Data Science,3,Spring,2023,I3
+974,CSAI 251,Data Science,3,Fall,2023,I46
+975,CSAI 252,Data Science,3,Summer,2023,I3
+976,CSAI 201,Data Science,3,Fall,2023,I38
+977,CSAI 253,Data Science,3,Fall,2023,I63
+978,CSAI 301,Data Science,3,Spring,2023,I11
+979,CSAI 399,Data Science,3,Fall,2023,I28
+980,CSAI 498,Data Science,3,Spring,2023,I97
+981,CSAI 499,Data Science,3,Summer,2023,I38
+982,IT 101,Information Technology,3,Fall,2023,I51
+983,IT 102,Information Technology,3,Fall,2023,I9
+984,IT 103,Information Technology,3,Spring,2023,I28
+985,IT 205,Information Technology,3,Fall,2023,I20
+986,IT 206,Information Technology,3,Fall,2023,I97
+987,IT 220,Information Technology,3,Spring,2023,I46
+988,IT 222,Information Technology,3,Fall,2023,I97
+989,IT 308,Information Technology,3,Fall,2023,I78
+990,IT 309,Information Technology,3,Fall,2023,I28
+991,IT 310,Information Technology,3,Fall,2023,I7
+992,IT 401,Information Technology,3,Spring,2023,I28
+993,IT 402,Information Technology,3,Spring,2023,I28
+994,IT 411,Information Technology,3,Spring,2023,I85
+995,ITCC 301,Information Technology,3,Spring,2023,I28
+996,ITCC 403,Information Technology,3,Summer,2023,I72
+997,ITCC 404,Information Technology,3,Fall,2023,I26
+998,ITCC 405,Information Technology,3,Fall,2023,I38
+999,ITCC 406,Information Technology,3,Summer,2023,I26
+1000,ITCC 407,Information Technology,3,Fall,2023,I51
+1001,ITCC 408,Information Technology,3,Summer,2023,I61
+1002,ITCC 410,Information Technology,3,Spring,2023,I46
+1003,ITCC 411,Information Technology,3,Spring,2023,I39
+1004,ITCC 412,Information Technology,3,Spring,2023,I9
+1005,ITCC 413,Information Technology,3,Summer,2023,I26
+1006,ITCC 414,Information Technology,3,Summer,2023,I44
+1007,ITCC 415,Information Technology,3,Fall,2023,I72
+1008,ITNS 301,Information Technology,3,Summer,2023,I46
+1009,ITNS 302,Information Technology,3,Summer,2023,I26
+1010,ITNS 403,Information Technology,3,Fall,2023,I26
+1011,ITNS 404,Information Technology,3,Summer,2023,I44
+1012,ITNS 406,Information Technology,3,Spring,2023,I7
+1013,ITNS 407,Information Technology,3,Spring,2023,I11
+1014,ITNS 408,Information Technology,3,Fall,2023,I78
+1015,ITNS 410,Information Technology,3,Fall,2023,I39
+1016,ITNS 411,Information Technology,3,Summer,2023,I97
+1017,ITNS 412,Information Technology,3,Fall,2023,I44
+1018,ITNS 413,Information Technology,3,Summer,2023,I46
+1019,ITNS 414,Information Technology,3,Spring,2023,I61
+1020,ITNS 415,Information Technology,3,Spring,2023,I78
+1021,CSAI 101,Data Science,3,Summer,2023,I39
+1022,CSAI 102,Data Science,3,Fall,2023,I63
+1023,CSAI 151,Data Science,3,Spring,2023,I46
+1024,CSAI 201,Data Science,3,Fall,2023,I11
+1025,CSAI 202,Data Science,3,Fall,2023,I77
+1026,CSAI 203,Data Science,3,Summer,2023,I87
+1027,CSAI 204,Data Science,3,Spring,2023,I39
+1028,CSAI 205,Data Science,3,Fall,2023,I44
+1029,CSAI 251,Data Science,3,Spring,2023,I38
+1030,CSAI 252,Data Science,3,Summer,2023,I28
+1031,CSAI 201,Data Science,3,Spring,2023,I87
+1032,CSAI 253,Data Science,3,Spring,2023,I9
+1033,CSAI 301,Data Science,3,Summer,2023,I87
+1034,CSAI 399,Data Science,3,Summer,2023,I20
+1035,CSAI 498,Data Science,3,Summer,2023,I39
+1036,CSAI 499,Data Science,3,Summer,2023,I61
+1037,SW 151,Software Engineering,3,Summer,2023,I96
+1038,SW 251,Software Engineering,3,Fall,2023,I87
+1039,SW 252,Software Engineering,3,Spring,2023,I26
+1040,SW 301,Software Engineering,3,Summer,2023,I63
+1041,SW 302,Software Engineering,3,Spring,2023,I11
+1042,SW 401,Software Engineering,3,Fall,2023,I46
+1043,SW 402,Software Engineering,3,Spring,2023,I11
+1044,SWAPD 301,Software Engineering,3,Fall,2023,I51
+1045,SWAPD 351,Software Engineering,3,Fall,2023,I61
+1046,SWAPD 352,Software Engineering,3,Fall,2023,I78
+1047,SWAPD 401,Software Engineering,3,Fall,2023,I85
+1048,SWAPD 402,Software Engineering,3,Summer,2023,I78
+1049,SWAPD 451,Software Engineering,3,Summer,2023,I87
+1050,SWAPD 452,Software Engineering,3,Spring,2023,I39
+1051,SWAPD 453,Software Engineering,3,Fall,2023,I85
+1052,SWGCG 301,Software Engineering,3,Spring,2023,I26
+1053,SWGCG 351,Software Engineering,3,Fall,2023,I39
+1054,SWGCG 352,Software Engineering,3,Spring,2023,I72
+1055,SWGCG 401,Software Engineering,3,Fall,2023,I77
+1056,SWGCG 402,Software Engineering,3,Spring,2023,I39
+1057,SWGCG 451,Software Engineering,3,Fall,2023,I9
+1058,SWGCG 452,Software Engineering,3,Fall,2023,I20
+1059,SWGCG 453,Software Engineering,3,Fall,2023,I78
+1060,SWHCI 301,Software Engineering,3,Summer,2023,I63
+1061,SWHCI 351,Software Engineering,3,Spring,2023,I11
+1062,SWHCI 352,Software Engineering,3,Spring,2023,I96
+1063,SWHCI 401,Software Engineering,3,Fall,2023,I96
+1064,SWHCI 402,Software Engineering,3,Fall,2023,I46
+1065,SWHCI 451,Software Engineering,3,Fall,2023,I39
+1066,SWHCI 452,Software Engineering,3,Summer,2023,I77
+1067,SWHCI 453,Software Engineering,3,Spring,2023,I77
+1068,MATH 101,Mathematics,3,Spring,2023,I88
+1069,MATH 102,Mathematics,3,Spring,2023,I52
+1070,MATH 103,Mathematics,3,Summer,2023,I25
+1071,MATH 104,Mathematics,3,Fall,2023,I52
+1072,MATH 105,Mathematics,3,Spring,2023,I84
+1073,MATH 106,Mathematics,3,Summer,2023,I59
+1074,MATH 107,Mathematics,3,Fall,2023,I66
+1075,MATH 108,Mathematics,3,Spring,2023,I66
+1076,MATH 109,Mathematics,3,Fall,2023,I25
+1077,MATH 110,Mathematics,3,Summer,2023,I91
+1078,MATH 111,Mathematics,3,Summer,2023,I30
+1079,MATH 112,Mathematics,3,Summer,2023,I59
+1080,MATH 113,Mathematics,3,Summer,2023,I34
+1081,MATH 114,Mathematics,3,Spring,2023,I19
+1082,MATH 115,Mathematics,3,Spring,2023,I52
+1083,MATH 116,Mathematics,3,Spring,2023,I4
+1084,MATH 117,Mathematics,3,Spring,2023,I4
+1085,MATH 118,Mathematics,3,Summer,2023,I23
+1086,MATH 119,Mathematics,3,Spring,2023,I23
+1087,MATH 120,Mathematics,3,Spring,2023,I19
+1088,MATH 121,Mathematics,3,Fall,2023,I40
+1089,MATH 122,Mathematics,3,Spring,2023,I88
+1090,MATH 123,Mathematics,3,Spring,2023,I59
+1091,MATH 124,Mathematics,3,Summer,2023,I98
+1092,MATH 125,Mathematics,3,Spring,2023,I59
+1093,MATH 126,Mathematics,3,Spring,2023,I68
+1094,MATH 127,Mathematics,3,Fall,2023,I84
+1095,MATH 128,Mathematics,3,Spring,2023,I19
+1096,MATH 129,Mathematics,3,Fall,2023,I19
+1097,ENGR 101,Engineering,3,Fall,2023,I70
+1098,ENGR 102,Engineering,3,Fall,2023,I17
+1099,ENGR 103,Engineering,3,Fall,2023,I8
+1100,ENGR 104,Engineering,3,Spring,2023,I5
+1101,ENGR 105,Engineering,3,Spring,2023,I55
+1102,ENGR 106,Engineering,3,Fall,2023,I22
+1103,ENGR 107,Engineering,3,Summer,2023,I45
+1104,ENGR 108,Engineering,3,Summer,2023,I37
+1105,ENGR 109,Engineering,3,Spring,2023,I41
+1106,ENGR 110,Engineering,3,Spring,2023,I55
+1107,ENGR 111,Engineering,3,Fall,2023,I5
+1108,ENGR 112,Engineering,3,Spring,2023,I41
+1109,ENGR 113,Engineering,3,Spring,2023,I54
+1110,ENGR 114,Engineering,3,Spring,2023,I5
+1111,ENGR 115,Engineering,3,Spring,2023,I6
+1112,ENGR 116,Engineering,3,Fall,2023,I57
+1113,ENGR 117,Engineering,3,Summer,2023,I1
+1114,ENGR 118,Engineering,3,Summer,2023,I5
+1115,ENGR 119,Engineering,3,Summer,2023,I22
+1116,ENGR 120,Engineering,3,Fall,2023,I31
+1117,ENGR 121,Engineering,3,Fall,2023,I70
+1118,ENGR 122,Engineering,3,Fall,2023,I8
+1119,ENGR 123,Engineering,3,Spring,2023,I45
+1120,ENGR 124,Engineering,3,Fall,2023,I27
+1121,ENGR 125,Engineering,3,Spring,2023,I80
+1122,ENGR 126,Engineering,3,Summer,2023,I17
+1123,ENGR 127,Engineering,3,Fall,2023,I86
+1124,ENGR 128,Engineering,3,Fall,2023,I70
+1125,ENGR 129,Engineering,3,Fall,2023,I22
+1126,SCIE 101,Science,3,Fall,2023,I64
+1127,SCIE 102,Science,3,Fall,2023,I49
+1128,SCIE 103,Science,3,Spring,2023,I69
+1129,SCIE 104,Science,3,Summer,2023,I49
+1130,SCIE 105,Science,3,Fall,2023,I95
+1131,SCIE 106,Science,3,Spring,2023,I29
+1132,SCIE 107,Science,3,Fall,2023,I35
+1133,SCIE 108,Science,3,Fall,2023,I29
+1134,SCIE 109,Science,3,Spring,2023,I2
+1135,SCIE 110,Science,3,Fall,2023,I32
+1136,SCIE 111,Science,3,Summer,2023,I100
+1137,SCIE 112,Science,3,Summer,2023,I50
+1138,SCIE 113,Science,3,Fall,2023,I95
+1139,SCIE 114,Science,3,Summer,2023,I53
+1140,SCIE 115,Science,3,Summer,2023,I71
+1141,SCIE 116,Science,3,Spring,2023,I83
+1142,SCIE 117,Science,3,Spring,2023,I67
+1143,SCIE 118,Science,3,Fall,2023,I75
+1144,SCIE 119,Science,3,Fall,2023,I10
+1145,SCIE 120,Science,3,Fall,2023,I21
+1146,SCIE 121,Science,3,Fall,2023,I74
+1147,SCIE 122,Science,3,Spring,2023,I50
+1148,SCIE 123,Science,3,Fall,2023,I56
+1149,SCIE 124,Science,3,Summer,2023,I50
+1150,SCIE 125,Science,3,Fall,2023,I33
+1151,SCIE 126,Science,3,Spring,2023,I2
+1152,SCIE 127,Science,3,Fall,2023,I21
+1153,SCIE 128,Science,3,Spring,2023,I92
+1154,SCIE 129,Science,3,Summer,2023,I16
+1155,CSAI 101,Data Science,3,Fall,2024,I28
+1156,CSAI 102,Data Science,3,Summer,2024,I72
+1157,CSAI 151,Data Science,3,Summer,2024,I38
+1158,CSAI 201,Data Science,3,Spring,2024,I63
+1159,CSAI 202,Data Science,3,Fall,2024,I61
+1160,CSAI 203,Data Science,3,Summer,2024,I63
+1161,CSAI 204,Data Science,3,Fall,2024,I87
+1162,CSAI 205,Data Science,3,Fall,2024,I72
+1163,CSAI 251,Data Science,3,Spring,2024,I44
+1164,CSAI 252,Data Science,3,Spring,2024,I26
+1165,CSAI 201,Data Science,3,Summer,2024,I77
+1166,CSAI 253,Data Science,3,Fall,2024,I46
+1167,CSAI 301,Data Science,3,Summer,2024,I85
+1168,CSAI 399,Data Science,3,Summer,2024,I11
+1169,CSAI 498,Data Science,3,Summer,2024,I39
+1170,CSAI 499,Data Science,3,Fall,2024,I39
+1171,DSAI 103,Data Science,3,Spring,2024,I26
+1172,DSAI 104,Data Science,3,Fall,2024,I78
+1173,DSAI 201,Data Science,3,Spring,2024,I7
+1174,DSAI 202,Data Science,3,Summer,2024,I38
+1175,DSAI 203,Data Science,3,Fall,2024,I72
+1176,DSAI 305,Data Science,3,Summer,2024,I3
+1177,DSAI 307,Data Science,3,Fall,2024,I3
+1178,DSAI 308,Data Science,3,Summer,2024,I11
+1179,DSAI 325,Data Science,3,Spring,2024,I87
+1180,DSAI 352,Data Science,3,Summer,2024,I77
+1181,DSAI 353,Data Science,3,Summer,2024,I9
+1182,DSAI 402,Data Science,3,Fall,2024,I96
+1183,DSAI 403,Data Science,3,Fall,2024,I7
+1184,DSAI 406,Data Science,3,Summer,2024,I44
+1185,DSAI 413,Data Science,3,Summer,2024,I44
+1186,DSAI 414,Data Science,3,Summer,2024,I97
+1187,DSAI 415,Data Science,3,Spring,2024,I61
+1188,DSAI 416,Data Science,3,Summer,2024,I28
+1189,DSAI 417,Data Science,3,Fall,2024,I72
+1190,DSAI 418,Data Science,3,Spring,2024,I63
+1191,DSAI 427,Data Science,3,Spring,2024,I72
+1192,DSAI 431,Data Science,3,Spring,2024,I26
+1193,DSAI 433,Data Science,3,Summer,2024,I78
+1194,DSAI 456,Data Science,3,Fall,2024,I78
+1195,DSAI 473,Data Science,3,Fall,2024,I38
+1196,DSAI 490,Data Science,3,Spring,2024,I46
+1197,CSAI 101,Data Science,3,Summer,2024,I61
+1198,CSAI 102,Data Science,3,Spring,2024,I44
+1199,CSAI 151,Data Science,3,Spring,2024,I26
+1200,CSAI 201,Data Science,3,Spring,2024,I28
+1201,CSAI 202,Data Science,3,Fall,2024,I51
+1202,CSAI 203,Data Science,3,Summer,2024,I51
+1203,CSAI 204,Data Science,3,Summer,2024,I26
+1204,CSAI 205,Data Science,3,Summer,2024,I72
+1205,CSAI 251,Data Science,3,Spring,2024,I87
+1206,CSAI 252,Data Science,3,Summer,2024,I39
+1207,CSAI 201,Data Science,3,Spring,2024,I44
+1208,CSAI 253,Data Science,3,Summer,2024,I85
+1209,CSAI 301,Data Science,3,Summer,2024,I78
+1210,CSAI 399,Data Science,3,Spring,2024,I97
+1211,CSAI 498,Data Science,3,Fall,2024,I9
+1212,CSAI 499,Data Science,3,Fall,2024,I61
+1213,IT 101,Information Technology,3,Fall,2024,I77
+1214,IT 102,Information Technology,3,Spring,2024,I61
+1215,IT 103,Information Technology,3,Fall,2024,I85
+1216,IT 205,Information Technology,3,Spring,2024,I28
+1217,IT 206,Information Technology,3,Summer,2024,I20
+1218,IT 220,Information Technology,3,Summer,2024,I3
+1219,IT 222,Information Technology,3,Spring,2024,I26
+1220,IT 308,Information Technology,3,Spring,2024,I96
+1221,IT 309,Information Technology,3,Fall,2024,I39
+1222,IT 310,Information Technology,3,Summer,2024,I7
+1223,IT 401,Information Technology,3,Spring,2024,I26
+1224,IT 402,Information Technology,3,Spring,2024,I97
+1225,IT 411,Information Technology,3,Summer,2024,I39
+1226,ITCC 301,Information Technology,3,Spring,2024,I26
+1227,ITCC 403,Information Technology,3,Summer,2024,I96
+1228,ITCC 404,Information Technology,3,Fall,2024,I72
+1229,ITCC 405,Information Technology,3,Spring,2024,I97
+1230,ITCC 406,Information Technology,3,Summer,2024,I78
+1231,ITCC 407,Information Technology,3,Fall,2024,I38
+1232,ITCC 408,Information Technology,3,Spring,2024,I44
+1233,ITCC 410,Information Technology,3,Summer,2024,I44
+1234,ITCC 411,Information Technology,3,Spring,2024,I39
+1235,ITCC 412,Information Technology,3,Fall,2024,I78
+1236,ITCC 413,Information Technology,3,Fall,2024,I3
+1237,ITCC 414,Information Technology,3,Summer,2024,I96
+1238,ITCC 415,Information Technology,3,Fall,2024,I46
+1239,ITNS 301,Information Technology,3,Spring,2024,I96
+1240,ITNS 302,Information Technology,3,Fall,2024,I63
+1241,ITNS 403,Information Technology,3,Spring,2024,I96
+1242,ITNS 404,Information Technology,3,Fall,2024,I26
+1243,ITNS 406,Information Technology,3,Fall,2024,I26
+1244,ITNS 407,Information Technology,3,Fall,2024,I51
+1245,ITNS 408,Information Technology,3,Summer,2024,I78
+1246,ITNS 410,Information Technology,3,Summer,2024,I11
+1247,ITNS 411,Information Technology,3,Fall,2024,I87
+1248,ITNS 412,Information Technology,3,Summer,2024,I51
+1249,ITNS 413,Information Technology,3,Spring,2024,I87
+1250,ITNS 414,Information Technology,3,Summer,2024,I46
+1251,ITNS 415,Information Technology,3,Summer,2024,I72
+1252,CSAI 101,Data Science,3,Summer,2024,I7
+1253,CSAI 102,Data Science,3,Spring,2024,I87
+1254,CSAI 151,Data Science,3,Summer,2024,I9
+1255,CSAI 201,Data Science,3,Summer,2024,I3
+1256,CSAI 202,Data Science,3,Fall,2024,I38
+1257,CSAI 203,Data Science,3,Spring,2024,I77
+1258,CSAI 204,Data Science,3,Fall,2024,I97
+1259,CSAI 205,Data Science,3,Summer,2024,I38
+1260,CSAI 251,Data Science,3,Fall,2024,I11
+1261,CSAI 252,Data Science,3,Spring,2024,I28
+1262,CSAI 201,Data Science,3,Spring,2024,I78
+1263,CSAI 253,Data Science,3,Fall,2024,I11
+1264,CSAI 301,Data Science,3,Summer,2024,I51
+1265,CSAI 399,Data Science,3,Fall,2024,I9
+1266,CSAI 498,Data Science,3,Summer,2024,I78
+1267,CSAI 499,Data Science,3,Spring,2024,I28
+1268,SW 151,Software Engineering,3,Spring,2024,I26
+1269,SW 251,Software Engineering,3,Fall,2024,I87
+1270,SW 252,Software Engineering,3,Spring,2024,I51
+1271,SW 301,Software Engineering,3,Spring,2024,I9
+1272,SW 302,Software Engineering,3,Fall,2024,I7
+1273,SW 401,Software Engineering,3,Spring,2024,I72
+1274,SW 402,Software Engineering,3,Fall,2024,I9
+1275,SWAPD 301,Software Engineering,3,Fall,2024,I87
+1276,SWAPD 351,Software Engineering,3,Summer,2024,I97
+1277,SWAPD 352,Software Engineering,3,Summer,2024,I97
+1278,SWAPD 401,Software Engineering,3,Summer,2024,I77
+1279,SWAPD 402,Software Engineering,3,Spring,2024,I61
+1280,SWAPD 451,Software Engineering,3,Spring,2024,I78
+1281,SWAPD 452,Software Engineering,3,Spring,2024,I3
+1282,SWAPD 453,Software Engineering,3,Summer,2024,I46
+1283,SWGCG 301,Software Engineering,3,Spring,2024,I51
+1284,SWGCG 351,Software Engineering,3,Fall,2024,I28
+1285,SWGCG 352,Software Engineering,3,Spring,2024,I96
+1286,SWGCG 401,Software Engineering,3,Summer,2024,I63
+1287,SWGCG 402,Software Engineering,3,Spring,2024,I97
+1288,SWGCG 451,Software Engineering,3,Fall,2024,I97
+1289,SWGCG 452,Software Engineering,3,Fall,2024,I97
+1290,SWGCG 453,Software Engineering,3,Fall,2024,I39
+1291,SWHCI 301,Software Engineering,3,Fall,2024,I51
+1292,SWHCI 351,Software Engineering,3,Spring,2024,I44
+1293,SWHCI 352,Software Engineering,3,Summer,2024,I72
+1294,SWHCI 401,Software Engineering,3,Spring,2024,I46
+1295,SWHCI 402,Software Engineering,3,Spring,2024,I61
+1296,SWHCI 451,Software Engineering,3,Fall,2024,I11
+1297,SWHCI 452,Software Engineering,3,Summer,2024,I63
+1298,SWHCI 453,Software Engineering,3,Fall,2024,I72
+1299,MATH 101,Mathematics,3,Summer,2024,I25
+1300,MATH 102,Mathematics,3,Fall,2024,I84
+1301,MATH 103,Mathematics,3,Spring,2024,I88
+1302,MATH 104,Mathematics,3,Summer,2024,I68
+1303,MATH 105,Mathematics,3,Summer,2024,I73
+1304,MATH 106,Mathematics,3,Spring,2024,I52
+1305,MATH 107,Mathematics,3,Fall,2024,I30
+1306,MATH 108,Mathematics,3,Summer,2024,I40
+1307,MATH 109,Mathematics,3,Spring,2024,I88
+1308,MATH 110,Mathematics,3,Spring,2024,I4
+1309,MATH 111,Mathematics,3,Fall,2024,I98
+1310,MATH 112,Mathematics,3,Summer,2024,I52
+1311,MATH 113,Mathematics,3,Fall,2024,I30
+1312,MATH 114,Mathematics,3,Spring,2024,I52
+1313,MATH 115,Mathematics,3,Spring,2024,I98
+1314,MATH 116,Mathematics,3,Summer,2024,I88
+1315,MATH 117,Mathematics,3,Summer,2024,I90
+1316,MATH 118,Mathematics,3,Spring,2024,I91
+1317,MATH 119,Mathematics,3,Summer,2024,I84
+1318,MATH 120,Mathematics,3,Spring,2024,I59
+1319,MATH 121,Mathematics,3,Fall,2024,I91
+1320,MATH 122,Mathematics,3,Summer,2024,I84
+1321,MATH 123,Mathematics,3,Summer,2024,I98
+1322,MATH 124,Mathematics,3,Fall,2024,I23
+1323,MATH 125,Mathematics,3,Summer,2024,I25
+1324,MATH 126,Mathematics,3,Summer,2024,I59
+1325,MATH 127,Mathematics,3,Fall,2024,I4
+1326,MATH 128,Mathematics,3,Summer,2024,I52
+1327,MATH 129,Mathematics,3,Summer,2024,I68
+1328,ENGR 101,Engineering,3,Fall,2024,I27
+1329,ENGR 102,Engineering,3,Summer,2024,I27
+1330,ENGR 103,Engineering,3,Summer,2024,I80
+1331,ENGR 104,Engineering,3,Summer,2024,I6
+1332,ENGR 105,Engineering,3,Fall,2024,I36
+1333,ENGR 106,Engineering,3,Spring,2024,I80
+1334,ENGR 107,Engineering,3,Spring,2024,I37
+1335,ENGR 108,Engineering,3,Summer,2024,I36
+1336,ENGR 109,Engineering,3,Summer,2024,I8
+1337,ENGR 110,Engineering,3,Fall,2024,I43
+1338,ENGR 111,Engineering,3,Spring,2024,I31
+1339,ENGR 112,Engineering,3,Fall,2024,I18
+1340,ENGR 113,Engineering,3,Summer,2024,I36
+1341,ENGR 114,Engineering,3,Fall,2024,I57
+1342,ENGR 115,Engineering,3,Spring,2024,I54
+1343,ENGR 116,Engineering,3,Spring,2024,I86
+1344,ENGR 117,Engineering,3,Spring,2024,I18
+1345,ENGR 118,Engineering,3,Spring,2024,I54
+1346,ENGR 119,Engineering,3,Fall,2024,I37
+1347,ENGR 120,Engineering,3,Fall,2024,I12
+1348,ENGR 121,Engineering,3,Summer,2024,I55
+1349,ENGR 122,Engineering,3,Summer,2024,I37
+1350,ENGR 123,Engineering,3,Summer,2024,I47
+1351,ENGR 124,Engineering,3,Spring,2024,I18
+1352,ENGR 125,Engineering,3,Fall,2024,I43
+1353,ENGR 126,Engineering,3,Spring,2024,I43
+1354,ENGR 127,Engineering,3,Fall,2024,I22
+1355,ENGR 128,Engineering,3,Fall,2024,I6
+1356,ENGR 129,Engineering,3,Fall,2024,I37
+1357,SCIE 101,Science,3,Spring,2024,I48
+1358,SCIE 102,Science,3,Fall,2024,I89
+1359,SCIE 103,Science,3,Summer,2024,I15
+1360,SCIE 104,Science,3,Spring,2024,I10
+1361,SCIE 105,Science,3,Fall,2024,I48
+1362,SCIE 106,Science,3,Spring,2024,I29
+1363,SCIE 107,Science,3,Summer,2024,I16
+1364,SCIE 108,Science,3,Spring,2024,I60
+1365,SCIE 109,Science,3,Fall,2024,I16
+1366,SCIE 110,Science,3,Fall,2024,I32
+1367,SCIE 111,Science,3,Spring,2024,I94
+1368,SCIE 112,Science,3,Fall,2024,I10
+1369,SCIE 113,Science,3,Spring,2024,I50
+1370,SCIE 114,Science,3,Summer,2024,I29
+1371,SCIE 115,Science,3,Summer,2024,I10
+1372,SCIE 116,Science,3,Fall,2024,I2
+1373,SCIE 117,Science,3,Fall,2024,I49
+1374,SCIE 118,Science,3,Summer,2024,I33
+1375,SCIE 119,Science,3,Spring,2024,I35
+1376,SCIE 120,Science,3,Spring,2024,I35
+1377,SCIE 121,Science,3,Summer,2024,I21
+1378,SCIE 122,Science,3,Fall,2024,I32
+1379,SCIE 123,Science,3,Spring,2024,I33
+1380,SCIE 124,Science,3,Fall,2024,I67
+1381,SCIE 125,Science,3,Summer,2024,I94
+1382,SCIE 126,Science,3,Summer,2024,I50
+1383,SCIE 127,Science,3,Spring,2024,I100
+1384,SCIE 128,Science,3,Summer,2024,I76
+1385,SCIE 129,Science,3,Summer,2024,I49
