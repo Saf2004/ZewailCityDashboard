@@ -34,10 +34,10 @@ def generate_student_data():
         else:
             student_concentration = student_major
         student_age = random.randint(18, 25)
-        student_gpa = round(random.uniform(0, 4.1), 2)
+        student_gpa = round(random.uniform(0, 4.00), 2)
         student_gpa = round(student_gpa + random.choice([-0.2, 0.2]),2)
         if student_gpa > 4.0:
-            student_gpa = float(4)
+            student_gpa = float(3.8)
 
         if student_gpa >= 3.00:
             number_of_replaces = 0
@@ -329,7 +329,7 @@ def generate_courses_data(course_codes_dict, instructors_df):
     return courses_df
 instructors_df = generate_instructor_data()
 courses_df = generate_courses_data(course_codes_dict, instructors_df)
-courses_df.to_csv("courses.csv")
+courses_df.to_csv("../data/courses.csv")
 
 
 def generate_student_grades_reports(courses_df, students_df):
@@ -373,15 +373,15 @@ financials_df = generate_financial_data(students_df)
 students_grades_reports_df = generate_student_grades_reports(courses_df, students_df)
 
 students_df.set_index("student_id", inplace=True)
-students_df.to_csv("students.csv")
+students_df.to_csv("../data/students.csv")
 
 instructors_df.set_index("instructor_id", inplace=True)
-instructors_df.to_csv("instructors.csv")
+instructors_df.to_csv("../data/instructors.csv")
 
-financials_df.to_csv("financials.csv")
+financials_df.to_csv("../data/financials.csv")
 
 
-students_grades_reports_df.to_csv("students_grades_reports.csv")
+students_grades_reports_df.to_csv("../data/students_grades_reports.csv")
 
 
 from sqlalchemy import create_engine
