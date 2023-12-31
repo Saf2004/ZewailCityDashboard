@@ -50,13 +50,26 @@ def financials():
 
     conn.close()
 
+    import math
+    def millify(n):
+        n = float(n)
+        millnames = ['', ' K', ' M', ' B', ' T']
+        millidx = max(0, min(len(millnames) - 1,
+                             int(math.floor(0 if n == 0 else math.log10(abs(n)) / 3))))
+
+        return '£' + str(n / 10 ** (3 * millidx)) + str(millnames[millidx])
+
+
     df_discount['sum'] = df_discount['student_outstanding_fees'] / (1 - df_discount['scholarship_percentage'] / 100)
 
     student_count = df.loc[0, "count(student_id)"]
 
-    total_fees = df.loc[0, "sum(student_outstanding_fees)"]
+    total = float(df.loc[0, "sum(student_outstanding_fees)"])
 
-    total_discount = df_discount['sum'].sum() - total_fees
+    total_fees = millify(float(df.loc[0, "sum(student_outstanding_fees)"]))
+
+
+    total_discount = millify(float(df_discount['sum'].sum() - total))
 
     return render_template('financials.html', student_count=student_count, total_fees=total_fees,
                            total_discount=total_discount)
