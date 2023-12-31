@@ -103,13 +103,21 @@ def instructors():
     conn = sqlite3.connect('university.db')
     query = """SELECT distinct(course_title) FROM courses"""
     pandas_query = f"SELECT distinct(course_code) FROM courses WHERE course_title LIKE '{major}'"
+    instructors_query = """
+        SELECT instructor_name, instructor_rating, department
+        FROM instructors
+        ORDER BY instructor_rating DESC
+        LIMIT 40;
+        """
     df = pd.read_sql_query(pandas_query, conn)
     df_m = pd.read_sql_query(query, conn)
+    df_i = pd.read_sql_query(instructors_query, conn)
     course_list = df["course_code"].tolist()
     majors = df_m["course_title"].tolist()
+    instructors_dict = df_i.to_dict(orient="records")
     conn.close()
 
-    return render_template('instructors.html', courses=course_list, majors=majors)
+    return render_template('instructors.html', courses=course_list, majors=majors, instructors=instructors_dict)
 
 
 @app.route('/get_courses', methods=['GET'])

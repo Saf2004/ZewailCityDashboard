@@ -202,7 +202,7 @@ body {
 }
 #bulletchartdivparent{
     width: 64.6%;
-    height: 850px;
+    height: 900px;
     margin: 1vh;
     display: inline-flex;
     padding: 2vh;
@@ -219,9 +219,7 @@ body {
     }
 #anotherchart{
     width: 31.4%;
-    height: 575px;
-    max-width: 100%;
-    display: inline-block;
+    height: 625px;
     position: absolute;
     right: 24px;
     top: 300px;
@@ -264,4 +262,7 @@ body {
   background-color: #171717;
   color: #fff;
     opacity: .50;
+}
+#list{
+    background-color: #121212;
 }
