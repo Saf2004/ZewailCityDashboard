@@ -88,11 +88,9 @@ def getStudentsCost():
     df['student_outstanding_fees'] = df['student_outstanding_fees']
     data = df.groupby(['student_major'])[['original_fees', 'student_outstanding_fees']].sum().reset_index()
 
-    # Rename the columns as specified
     data = data.rename(
         columns={'student_major': 'country', 'original_fees': 'year2004', 'student_outstanding_fees': 'year2005'})
 
-    # Convert the DataFrame to JSON with specified orientation
     json_data = data.to_json(orient='records')
 
     return json_data
@@ -116,7 +114,6 @@ def getScores():
     mean = round(df["instructor_rating"].mean(), 2)
     maximum = df["instructor_rating"].max()
     list = []
-    # drop duplicates on instructor name,rating, and year
 
     for i in df.iterrows():
         list.append(
@@ -217,21 +214,17 @@ def students():
 def getGPAEng():
     conn = sqlite3.connect('university.db')
 
-    # Create a DataFrame by executing an SQL query
     query = 'SELECT student_gpa,student_major FROM students'
     df = pd.read_sql_query(query, conn)
 
-    # Close the database connection
     conn.close()
 
     df = df[df["student_major"] == "Engineering"]
-    # Group by GPA intervals and count occurrences
     gpa_counts = df.groupby(pd.cut(df["student_gpa"], [x / 10.0 for x in range(0, 42, 2)])).count()[
         "student_gpa"].tolist()
 
     distrib_intervals = [x / 10.0 for x in range(0, 42, 2)]
 
-    # Create JSON data for the distribution
     data = [{"GPA": distribution, "value": gpa} for gpa, distribution in zip(gpa_counts, distrib_intervals)]
 
     return jsonify(data)
@@ -241,21 +234,17 @@ def getGPAEng():
 def getGPASC():
     conn = sqlite3.connect('university.db')
 
-    # Create a DataFrame by executing an SQL query
     query = 'SELECT student_gpa,student_major FROM students'
     df = pd.read_sql_query(query, conn)
 
-    # Close the database connection
     conn.close()
 
     df = df[df["student_major"] == "Science"]
-    # Group by GPA intervals and count occurrences
     gpa_counts = df.groupby(pd.cut(df["student_gpa"], [x / 10.0 for x in range(0, 42, 2)])).count()[
         "student_gpa"].tolist()
 
     distrib_intervals = [x / 10.0 for x in range(0, 42, 2)]
 
-    # Create JSON data for the distribution
     data = [{"GPA": distribution, "value": gpa} for gpa, distribution in zip(gpa_counts, distrib_intervals)]
 
     return jsonify(data)
@@ -265,22 +254,18 @@ def getGPASC():
 def getGPACS():
     conn = sqlite3.connect('university.db')
 
-    # Create a DataFrame by executing an SQL query
     query = 'SELECT student_gpa,student_major FROM students'
     df = pd.read_sql_query(query, conn)
 
-    # Close the database connection
     conn.close()
 
     df = df[df["student_major"] == "Computer Science"]
 
-    # Group by GPA intervals and count occurrences
     gpa_counts = df.groupby(pd.cut(df["student_gpa"], [x / 10.0 for x in range(0, 42, 2)])).count()[
         "student_gpa"].tolist()
 
     distrib_intervals = [x / 10.0 for x in range(0, 42, 2)]
 
-    # Create JSON data for the distribution
     data = [{"GPA": distribution, "value": gpa} for gpa, distribution in zip(gpa_counts, distrib_intervals)]
 
     return jsonify(data)
@@ -290,22 +275,18 @@ def getGPACS():
 def getGPAMath():
     conn = sqlite3.connect('university.db')
 
-    # Create a DataFrame by executing an SQL query
     query = 'SELECT student_gpa,student_major FROM students'
     df = pd.read_sql_query(query, conn)
 
-    # Close the database connection
     conn.close()
 
     df = df[df["student_major"] == "Mathematics"]
 
-    # Group by GPA intervals and count occurrences
     gpa_counts = df.groupby(pd.cut(df["student_gpa"], [x / 10.0 for x in range(0, 42, 2)])).count()[
         "student_gpa"].tolist()
 
     distrib_intervals = [x / 10.0 for x in range(0, 42, 2)]
 
-    # Create JSON data for the distribution
     data = [{"GPA": distribution, "value": gpa} for gpa, distribution in zip(gpa_counts, distrib_intervals)]
 
     return jsonify(data)
@@ -326,24 +307,19 @@ def getScholarshipPercentage():
 
     data = json.loads(result)
 
-    # Create a new dictionary with the desired format
     result_dict = {}
     for entry in data:
         year = entry["student_batch"]
         major = entry["student_major"]
         count = entry["count"]
 
-        # Create or update the year key
         if year not in result_dict:
             result_dict[year] = {}
 
-        # Set the count for the major within the year
         result_dict[year][major] = count
 
-    # Convert the result_dict to a list of dictionaries with 'year' key
     result_list = [{"year": year, **majors} for year, majors in result_dict.items()]
 
-    # Convert the result_list to JSON format
     result_json = json.dumps(result_list, indent=2)
 
     conn.close()
@@ -407,7 +383,7 @@ def getMajorEnrollment():
         category, year = key
         if category not in result:
             result[category] = []
-        result[category].append({"ax": str(year), "ay": int(value['count'])})  # Convert to int
+        result[category].append({"ax": str(year), "ay": int(value['count'])})
 
     for category in result:
         result[category] = sorted(result[category], key=lambda x: x["ax"])
@@ -460,8 +436,86 @@ def getStudentsCount():
 
     return jsonify(data)
 
+@app.route('/get-instructor-rating-research-cs')
+def getInstructorRatingResearchCs():
+    conn = sqlite3.connect('university.db')
 
+    query = 'SELECT instructor_name,instructor_rating,number_of_researches,department FROM instructors'
+    df = pd.read_sql_query(query, conn)
 
+    conn.close()
+
+    df_i = df[df["department"] == "Computer Science"]
+    df_i = df_i.drop(columns=['department'])
+
+    df_i = df_i.sort_values(by=['number_of_researches'], ascending=True)
+
+    df_i['instructor_name'] = df_i['instructor_name'].apply(lambda x: x.replace(x.split()[1], x.split()[1][0] + '.'))
+
+    data = df_i.rename(
+        columns={'instructor_name': 'country', 'instructor_rating': 'year2004', 'number_of_researches': 'year2005'})
+    json_data = data.to_json(orient='records')
+    return json_data
+@app.route('/get-instructor-rating-research-eng')
+def getInstructorRatingResearchEng():
+    conn = sqlite3.connect('university.db')
+
+    query = 'SELECT instructor_name,instructor_rating,number_of_researches,department FROM instructors'
+    df = pd.read_sql_query(query, conn)
+
+    conn.close()
+
+    df_i = df[df["department"] == "Engineering"]
+    df_i = df_i.drop(columns=['department'])
+
+    df_i = df_i.sort_values(by=['number_of_researches'], ascending=True)
+
+    df_i['instructor_name'] = df_i['instructor_name'].apply(lambda x: x.replace(x.split()[1], x.split()[1][0] + '.'))
+
+    data = df_i.rename(
+        columns={'instructor_name': 'country', 'instructor_rating': 'year2004', 'number_of_researches': 'year2005'})
+    json_data = data.to_json(orient='records')
+    return json_data
+@app.route('/get-instructor-rating-research-sci')
+def getInstructorRatingResearchSci():
+    conn = sqlite3.connect('university.db')
+
+    query = 'SELECT instructor_name,instructor_rating,number_of_researches,department FROM instructors'
+    df = pd.read_sql_query(query, conn)
+
+    conn.close()
+
+    df_i = df[df["department"] == "Science"]
+    df_i = df_i.drop(columns=['department'])
+
+    df_i = df_i.sort_values(by=['number_of_researches'], ascending=True)
+
+    df_i['instructor_name'] = df_i['instructor_name'].apply(lambda x: x.replace(x.split()[1], x.split()[1][0] + '.'))
+
+    data = df_i.rename(
+        columns={'instructor_name': 'country', 'instructor_rating': 'year2004', 'number_of_researches': 'year2005'})
+    json_data = data.to_json(orient='records')
+    return json_data
+@app.route('/get-instructor-rating-research-math')
+def getInstructorRatingResearchMath():
+    conn = sqlite3.connect('university.db')
+
+    query = 'SELECT instructor_name,instructor_rating,number_of_researches,department FROM instructors'
+    df = pd.read_sql_query(query, conn)
+
+    conn.close()
+
+    df_i = df[df["department"] == "Mathematics"]
+    df_i = df_i.drop(columns=['department'])
+
+    df_i = df_i.sort_values(by=['number_of_researches'], ascending=True)
+
+    df_i['instructor_name'] = df_i['instructor_name'].apply(lambda x: x.replace(x.split()[1], x.split()[1][0] + '.'))
+
+    data = df_i.rename(
+        columns={'instructor_name': 'country', 'instructor_rating': 'year2004', 'number_of_researches': 'year2005'})
+    json_data = data.to_json(orient='records')
+    return json_data
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=1628, debug=True)
