@@ -108,9 +108,9 @@ def generate_instructor_data():
     for i in range(100):
         instructor_id = "I" + str(i + 1)
         if i % 5 == 0:
-            instructor_name = random.choice(female_names) + " " + random.choice(male_names)
+            instructor_name = random.choice(female_names) + " " + random.choice(male_names)+" "+ random.choice(male_names)
         else:
-            instructor_name = random.choice(male_names) + " " + random.choice(male_names)
+            instructor_name = random.choice(male_names) + " " + random.choice(male_names)+" "+ random.choice(male_names)
         instructor_rating = round(random.uniform(1.0, 5.0), 2)
         number_of_researches = random.randint(0, 20)
         years_experience = random.randint(1, 20)
@@ -329,7 +329,6 @@ def generate_courses_data(course_codes_dict, instructors_df):
     return courses_df
 instructors_df = generate_instructor_data()
 courses_df = generate_courses_data(course_codes_dict, instructors_df)
-courses_df.to_csv("../data/courses.csv")
 
 
 def generate_student_grades_reports(courses_df, students_df):
@@ -373,15 +372,11 @@ financials_df = generate_financial_data(students_df)
 students_grades_reports_df = generate_student_grades_reports(courses_df, students_df)
 
 students_df.set_index("student_id", inplace=True)
-students_df.to_csv("../data/students.csv")
 
 instructors_df.set_index("instructor_id", inplace=True)
-instructors_df.to_csv("../data/instructors.csv")
-
-financials_df.to_csv("../data/financials.csv")
 
 
-students_grades_reports_df.to_csv("../data/students_grades_reports.csv")
+
 
 
 from sqlalchemy import create_engine
