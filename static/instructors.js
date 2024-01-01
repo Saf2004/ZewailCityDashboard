@@ -21,6 +21,42 @@ function fetchDataAndUpdateAngularChart() {
         })
         .catch(error => console.error('Error:', error));
 }
+function fetchDataAndUpdateLayeredChart() {
+    fetch('/get-instructor-rating-research-cs')
+        .then(response => response.json())
+        .then(data => {
+            updateLayeredChart(data, "layeredinstructorchartdivcs");
+            console.log(data)
+        })
+        .catch(error => console.error('Error:', error));
+}
+function fetchDataAndUpdateLayeredChart2() {
+    fetch('/get-instructor-rating-research-eng')
+        .then(response => response.json())
+        .then(data => {
+            updateLayeredChart(data, "layeredinstructorchartdiveng");
+            console.log(data)
+        })
+        .catch(error => console.error('Error:', error));
+}
+function fetchDataAndUpdateLayeredChart3() {
+    fetch('/get-instructor-rating-research-sci')
+        .then(response => response.json())
+        .then(data => {
+            updateLayeredChart(data, "layeredinstructorchartdivsci");
+            console.log(data)
+        })
+        .catch(error => console.error('Error:', error));
+}
+function fetchDataAndUpdateLayeredChart4() {
+    fetch('/get-instructor-rating-research-math')
+        .then(response => response.json())
+        .then(data => {
+            updateLayeredChart(data, "layeredinstructorchartdivmath");
+            console.log(data)
+        })
+        .catch(error => console.error('Error:', error));
+}
 
 
 function updateChart(data) {
@@ -377,13 +413,132 @@ function updateAngularChart(apidata) {
 
     }); // end am5.ready()
 }
+function updateLayeredChart(apidata, chartid) {
+   am5.ready(function() {
+
+// Create root element
+// https://www.amcharts.com/docs/v5/getting-started/#Root_element
+var root = am5.Root.new(chartid);
+
+// Set themes
+// https://www.amcharts.com/docs/v5/concepts/themes/
+root.setThemes([
+  am5themes_Dark.new(root)
+]);
+
+// Create chart
+// https://www.amcharts.com/docs/v5/charts/xy-chart/
+var chart = root.container.children.push(am5xy.XYChart.new(root, {
+  panX: true,
+  panY: false,
+  wheelX: "panX",
+  wheelY: "zoomX",
+  paddingLeft: 0,
+  layout: root.verticalLayout
+}));
 
 
+var data = apidata
 
+// Create axes
+// https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+var xRenderer = am5xy.AxisRendererX.new(root, {
+  minGridDistance: 70,
+  minorGridEnabled: true
+});
+xRenderer.labels.template.setAll({
+            rotation: -90,
+            centerY: am5.p50,
+            centerX: am5.p100,
+            paddingRight: 15
+        });
+
+var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+  categoryField: "country",
+  renderer: xRenderer,
+  tooltip: am5.Tooltip.new(root, {
+    themeTags: ["axis"],
+    animationDuration: 200
+  })
+}));
+
+xRenderer.grid.template.setAll({
+  location: 1
+})
+
+xAxis.data.setAll(data);
+
+var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+  min: 0,
+  renderer: am5xy.AxisRendererY.new(root, {
+    strokeOpacity: 0.1
+  })
+}));
+
+// Add series
+// https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+
+var series0 = chart.series.push(am5xy.ColumnSeries.new(root, {
+  name: "Income",
+  xAxis: xAxis,
+  yAxis: yAxis,
+  valueYField: "year2004",
+  categoryXField: "country",
+  clustered: false,
+  tooltip: am5.Tooltip.new(root, {
+    labelText: "Instructor's Rating: {valueY}"
+  })
+}));
+
+series0.columns.template.setAll({
+  width: am5.percent(80),
+  tooltipY: 0,
+  strokeOpacity: 0
+});
+
+
+series0.data.setAll(data);
+
+
+var series1 = chart.series.push(am5xy.ColumnSeries.new(root, {
+  name: "Income",
+  xAxis: xAxis,
+  yAxis: yAxis,
+  valueYField: "year2005",
+  categoryXField: "country",
+  clustered: false,
+  tooltip: am5.Tooltip.new(root, {
+    labelText: "Instructor's Research Count: {valueY}"
+  })
+}));
+
+series1.columns.template.setAll({
+  width: am5.percent(50),
+  tooltipY: 0,
+  strokeOpacity: 0
+});
+
+series1.data.setAll(data);
+
+var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
+
+
+// Make stuff animate on load
+// https://www.amcharts.com/docs/v5/concepts/animations/
+chart.appear(1000, 100);
+series0.appear();
+series1.appear();
+
+}); // end am5.ready()am5.ready()
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     fetchDataAndUpdateChart();
     fetchDataAndUpdateAngularChart();
+    fetchDataAndUpdateLayeredChart();
+    fetchDataAndUpdateLayeredChart2();
+    fetchDataAndUpdateLayeredChart3();
+    fetchDataAndUpdateLayeredChart4();
 });
 
 

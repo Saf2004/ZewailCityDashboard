@@ -28,7 +28,7 @@
         <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
             <svg class="bi me-2" width="40" height="32">
             </svg>
-            <span class="fs-4">Sidebar</span>
+            <span class="fs-4">ZC UST Metrics</span>
         </a>
         <hr>
         <ul class="nav nav-pills flex-column mb-auto">
@@ -139,7 +139,7 @@
                             }
                         </script>
                         <div>
-                            <div class="card" id="anotherchart">
+                            <div class="card" id="top40list">
                                 <h4 class="align-text-top text-center m-2">Top 40 Instructors by Rating</h4>
                                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
@@ -219,8 +219,46 @@
                                 <div id="angularchartdiv"></div>
                             </div>
                             <div class="card" id="angularchartdivparent">
-
-                                <div id="scatterchartdiv"></div>
+                                <div id="carouselInterval" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="10000">
+                                            <ol class="list-group" id="list-group">
+                                                <h3>CS Instructors Rating Vs. Researches</h3>
+                                                <div id="layeredinstructorchartdivcs"></div>
+                                            </ol>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="10000">
+                                            <ol class="list-group" id="list-group">
+                                                <h3>ENG Instructors Rating Vs. Researches</h3>
+                                                <div id="layeredinstructorchartdiveng"></div>
+                                            </ol>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <ol class="list-group " id="list-group">
+                                                <h3>SCI Instructors Rating Vs. Researches</h3>
+                                                <div id="layeredinstructorchartdivsci"></div>
+                                            </ol>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <ol class="list-group" id="list-group">
+                                                <h3>MATH Instructors Rating Vs. Researches</h3>
+                                                <div id="layeredinstructorchartdivmath"></div>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselInterval"
+                                            data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>x
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button id="Button" class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselInterval"
+                                            data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
