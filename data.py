@@ -102,8 +102,8 @@ def generate_instructor_data():
                                            "number_of_researches", "years_experience"])
 
     male_names = ['Ahmed', 'Mohamed', 'Mahmoud', 'Moustafa', 'Yehia', 'Khalid', 'Youssef', 'Tamer', 'Naser',
-                  'Abdelrahman']
-    female_names = ['Sabah', 'Doaa', 'Doha', 'Yousra', 'Mayar', 'Mariam', 'Toaa', 'Esraa', 'Doaa', 'Marwa']
+                  'Abdelrahman', 'Ali', 'Amr', 'Hassan', 'Hussein', 'Hany', 'Hesham', 'Hesham', 'Hossam', 'Hatem',]
+    female_names = ['Sabah', 'Doaa', 'Doha', 'Yousra', 'Mayar', 'Mariam', 'Toaa', 'Esraa', 'Doaa', 'Marwa','Nada','Nour','Nourhan','Nagham','Nahla']
 
     for i in range(100):
         instructor_id = "I" + str(i + 1)
