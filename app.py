@@ -156,6 +156,22 @@ def instructors():
     return render_template('instructors.html', courses=course_list, majors=majors, instructors=instructors_dict)
 
 
+@app.route('/get-instructor-percentage')
+def getInstructorPercentage():
+
+    conn = sqlite3.connect('university.db')
+
+    query = "SELECT * FROM instructors"
+    df_i = pd.read_sql_query(query, conn)
+
+    df_g = df_i[df_i['instructor_rating'] > df_i['instructor_rating'].mean()]
+
+    count = []
+    for i in range(4):
+        count.append(
+            round(df_g['department'].value_counts().iloc[i] / df_i['department'].value_counts().iloc[i] * 100, 1))
+
+    return count
 @app.route('/get_courses', methods=['GET'])
 def get_courses():
     major = request.args.get('major')

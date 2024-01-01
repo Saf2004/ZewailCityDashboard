@@ -14,6 +14,7 @@
     <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Dark.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/radar.js"></script>
     <script src="../static/instructors.js"></script>
 </head>
 
@@ -82,7 +83,7 @@
 
     <div>
         <!-- Page Content -->
-        <div class="card d-inline-flex" id="content1">
+        <div class="card d-inline-flex" id="content">
             <div class="container-fluid">
                 <div>
 
@@ -202,7 +203,7 @@
                                     <button class="carousel-control-prev" type="button"
                                             data-bs-target="#carouselExampleInterval"
                                             data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>x
                                         <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button id="Button" class="carousel-control-next" type="button"
@@ -212,6 +213,14 @@
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
+                            </div>
+                            <div class="card" id="angularchartdivparent1">
+                                <h3>Percentage of Majors with Instructors Rating Above Average</h3>
+                                <div id="angularchartdiv"></div>
+                            </div>
+                            <div class="card" id="angularchartdivparent">
+
+                                <div id="scatterchartdiv"></div>
                             </div>
                         </div>
                     </div>
